@@ -1,6 +1,9 @@
 /*-- scss:defaults --*/
 $primary: #3eb489;
-$font-family-sans-serif: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "Pretendard", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/*-- scss:uses --*/
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
 
 /*-- scss:rules --*/
 body {
