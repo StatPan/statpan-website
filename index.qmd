@@ -1,0 +1,41 @@
+---
+title: "StatPan"
+subtitle: "Clean, structured data for research & insights"
+---
+
+::: {#hero-banner .hero}
+## Clean, structured data for research & insights
+
+StatPan builds tools that turn raw, unstructured information into
+actionable knowledge for researchers, analysts, and developers.
+:::
+
+::: {.services}
+::: {.service-card}
+### Leginote
+
+Knowledge management platform for structured note-taking and research workflows.
+
+[Learn more](docs/leginote/index.qmd){.btn}
+:::
+
+::: {.service-card}
+### AssemblyMCP
+
+Model Context Protocol server for assembling and orchestrating AI agent pipelines.
+
+[Learn more](docs/assemblymcp/index.qmd){.btn}
+:::
+
+::: {.service-card}
+### ragpan
+
+Retrieval-Augmented Generation toolkit for building accurate, grounded AI applications.
+
+[Learn more](docs/ragpan/index.qmd){.btn}
+:::
+:::
+
+::: {.cta}
+[Explore Services](docs/index.qmd){.btn .btn-primary}
+:::

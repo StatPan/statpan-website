@@ -1,0 +1,9 @@
+---
+title: "Documentation"
+---
+
+## Services
+
+- [Leginote](leginote/index.qmd) — Knowledge management platform
+- [AssemblyMCP](assemblymcp/index.qmd) — MCP server for AI agent orchestration
+- [ragpan](ragpan/index.qmd) — RAG toolkit

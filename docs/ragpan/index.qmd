@@ -1,0 +1,9 @@
+---
+title: "ragpan"
+---
+
+# ragpan
+
+Retrieval-Augmented Generation toolkit for building accurate, grounded AI applications.
+
+Documentation coming soon.

@@ -1,0 +1,9 @@
+---
+title: "Leginote"
+---
+
+# Leginote
+
+Knowledge management platform for structured note-taking and research workflows.
+
+Documentation coming soon.

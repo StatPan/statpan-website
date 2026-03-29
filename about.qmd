@@ -1,0 +1,25 @@
+---
+title: "About StatPan"
+---
+
+## About
+
+StatPan is a data platform company focused on building tools that transform
+raw, unstructured information into clean, structured data for research and insights.
+
+### Our Mission
+
+We believe that access to well-structured data is the foundation of meaningful
+research and impactful insights. Our mission is to eliminate the friction between
+raw data and actionable knowledge.
+
+### What We Build
+
+- **Leginote** — Knowledge management for researchers
+- **AssemblyMCP** — AI agent orchestration via MCP
+- **ragpan** — RAG toolkit for grounded AI applications
+
+### Contact
+
+- GitHub: [StatPan](https://github.com/StatPan)
+- Email: hello@statpan.com

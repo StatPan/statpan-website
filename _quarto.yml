@@ -1,0 +1,43 @@
+project:
+  type: website
+
+website:
+  title: "StatPan - Data Platform Company"
+  site-url: https://statpan.com
+  description: "Clean, structured data for research & insights"
+  navbar:
+    background: dark
+    foreground: light
+    logo: images/logo.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: blog/index.qmd
+        text: Blog
+      - href: docs/index.qmd
+        text: Docs
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/StatPan
+        aria-label: GitHub
+  sidebar:
+    - id: docs
+      style: floating
+      contents:
+        - section: "Services"
+          contents:
+            - docs/leginote/index.qmd
+            - docs/assemblymcp/index.qmd
+            - docs/ragpan/index.qmd
+  page-footer:
+    center: |
+      &copy; 2026 StatPan. All rights reserved.
+
+format:
+  html:
+    theme:
+      light: [flatly, custom.scss]
+    css: styles.css
+    toc: true

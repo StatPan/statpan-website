@@ -1,0 +1,29 @@
+---
+title: "Technology"
+---
+
+## Technology Stack
+
+StatPan leverages modern open-source technologies to build reliable,
+scalable data tools.
+
+### Core Technologies
+
+| Technology | Purpose |
+|---|---|
+| Python | Backend services, data processing, AI/ML |
+| TypeScript | Web applications, developer tooling |
+| Quarto | Documentation and website |
+| MCP | Model Context Protocol for AI integration |
+
+### Infrastructure
+
+- **GitHub Actions** — CI/CD pipelines
+- **GitHub Pages** — Static site hosting
+- **Docker** — Containerized deployments
+
+### AI & Data
+
+- **Retrieval-Augmented Generation (RAG)** — Grounded AI responses
+- **Vector databases** — Semantic search and embeddings
+- **Knowledge graphs** — Structured relationship modeling

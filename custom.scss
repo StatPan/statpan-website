@@ -1,0 +1,16 @@
+/*-- Mint/White accent theme --*/
+
+$primary: #3eb489;
+$font-family-sans-serif: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+body {
+  font-family: $font-family-sans-serif;
+}
+
+.navbar {
+  background-color: #1a1a2e !important;
+}
+
+.navbar .nav-link:hover {
+  color: $primary !important;
+}
