@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "StatPan - Data Platform Company"
+  title: "StatPan"
   site-url: https://statpan.com
   description: "Clean, structured data for research & insights"
   navbar:
@@ -16,6 +16,8 @@ website:
         text: Blog
       - href: docs/index.qmd
         text: Docs
+      - href: technology.qmd
+        text: Technology
       - href: about.qmd
         text: About
     right:

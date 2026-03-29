@@ -1,25 +1,45 @@
 ---
 title: "About StatPan"
+toc: true
 ---
 
-## About
+## 우리는 누구인가
 
-StatPan is a data platform company focused on building tools that transform
-raw, unstructured information into clean, structured data for research and insights.
+StatPan은 공공 데이터를 정제된 구조적 데이터로 변환하는 데이터 플랫폼 회사입니다.
+첫 번째 서비스 **Leginote**를 시작으로, 연구자와 개발자가 신뢰할 수 있는
+데이터 인프라를 구축하고 있습니다.
 
-### Our Mission
+## 미션
 
-We believe that access to well-structured data is the foundation of meaningful
-research and impactful insights. Our mission is to eliminate the friction between
-raw data and actionable knowledge.
+> **Clean, structured data for research & insights**
 
-### What We Build
+원시 공공 데이터와 실제 활용 사이의 마찰을 제거합니다.
+데이터에 잘 접근할 수 있을 때, 더 나은 연구와 더 나은 정책 결정이 가능해집니다.
 
-- **Leginote** — Knowledge management for researchers
-- **AssemblyMCP** — AI agent orchestration via MCP
-- **ragpan** — RAG toolkit for grounded AI applications
+## 비전
 
-### Contact
+입법, 행정, 사법 데이터를 포함한 다양한 공공 데이터 도메인에서
+신뢰할 수 있는 데이터 플랫폼으로 성장합니다.
 
-- GitHub: [StatPan](https://github.com/StatPan)
+## 서비스
+
+| 서비스 | 설명 | 상태 |
+|--------|------|------|
+| **Leginote** | 입법 데이터 검색엔진 + 분석 플랫폼 | 개발 중 |
+| **AssemblyMCP** | 국회 API MCP 서버 | 오픈소스 |
+| **ragpan** | Go 기반 RAG 온보딩 도구 | 오픈소스 |
+
+## 기술 철학
+
+- **데이터 우선** — 좋은 제품은 신뢰할 수 있는 데이터에서 시작합니다
+- **오픈소스 기여** — 핵심 인프라는 커뮤니티와 함께 만듭니다
+- **개발자 경험** — API와 도구는 쓰기 쉬워야 합니다
+
+## 기술 스택
+
+StatPan의 인프라와 개발 스택에 대한 자세한 내용은 [Technology](technology.qmd) 페이지를 참고하세요.
+
+## 연락처
+
+- GitHub: [github.com/StatPan](https://github.com/StatPan)
 - Email: hello@statpan.com

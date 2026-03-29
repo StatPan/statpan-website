@@ -1,41 +1,94 @@
 ---
 title: "StatPan"
 subtitle: "Clean, structured data for research & insights"
+page-layout: full
+toc: false
 ---
 
 ::: {#hero-banner .hero}
-## Clean, structured data for research & insights
+## 연구자와 개발자를 위한 데이터 플랫폼
 
-StatPan builds tools that turn raw, unstructured information into
-actionable knowledge for researchers, analysts, and developers.
+StatPan은 원시 공공 데이터를 정제된 구조적 데이터로 변환하여
+연구자, 분석가, 개발자가 인사이트를 얻을 수 있도록 돕습니다.
+
+::: {.hero-cta}
+[Leginote 체험하기](docs/leginote/index.qmd){.btn .btn-primary}
+[오픈소스 살펴보기](https://github.com/StatPan){.btn .btn-outline}
+:::
+:::
+
+::: {.section-label}
+Services
 :::
 
 ::: {.services}
-::: {.service-card}
+::: {.service-card .featured}
 ### Leginote
 
-Knowledge management platform for structured note-taking and research workflows.
+입법 데이터 검색엔진 + 분석 플랫폼. 국회 법안, 회의록, 의결 데이터를
+구조화하여 정책 연구와 입법 분석을 지원합니다.
 
-[Learn more](docs/leginote/index.qmd){.btn}
+::: {.service-meta}
+[개발 중]{.badge .badge-active}
+:::
+
+[문서 보기](docs/leginote/index.qmd){.btn}
 :::
 
 ::: {.service-card}
 ### AssemblyMCP
 
-Model Context Protocol server for assembling and orchestrating AI agent pipelines.
+국회 공공데이터 API를 Model Context Protocol(MCP)로 래핑한
+오픈소스 서버. AI 에이전트가 입법 데이터에 직접 접근할 수 있습니다.
 
-[Learn more](docs/assemblymcp/index.qmd){.btn}
+::: {.service-meta}
+[오픈소스]{.badge .badge-open}
+:::
+
+[GitHub](https://github.com/StatPan/AssemblyMCP){.btn}
 :::
 
 ::: {.service-card}
 ### ragpan
 
-Retrieval-Augmented Generation toolkit for building accurate, grounded AI applications.
+Go 기반 RAG(검색 증강 생성) 온보딩 도구. 벡터 검색과 LLM을 연결하는
+경량 파이프라인을 빠르게 구성할 수 있습니다.
 
-[Learn more](docs/ragpan/index.qmd){.btn}
+::: {.service-meta}
+[오픈소스]{.badge .badge-open}
+:::
+
+[GitHub](https://github.com/StatPan/ragpan){.btn}
 :::
 :::
 
-::: {.cta}
-[Explore Services](docs/index.qmd){.btn .btn-primary}
+::: {.divider}
+:::
+
+::: {.mission-section}
+::: {.mission-text}
+### 왜 StatPan인가?
+
+공공 데이터는 방대하지만, 대부분 분산되어 있고 비정형입니다.
+StatPan은 이 데이터를 연구와 분석에 바로 활용할 수 있는
+형태로 정제하는 데 집중합니다.
+:::
+
+::: {.mission-stats}
+::: {.stat}
+**1st**
+
+서비스: Leginote
+:::
+::: {.stat}
+**공공 데이터**
+
+연구용 API
+:::
+::: {.stat}
+**오픈소스**
+
+핵심 도구
+:::
+:::
 :::

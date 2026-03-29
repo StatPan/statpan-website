@@ -1,29 +1,78 @@
 ---
 title: "Technology"
+toc: true
 ---
 
-## Technology Stack
+## 기술 스택 개요
 
-StatPan leverages modern open-source technologies to build reliable,
-scalable data tools.
+StatPan은 공공 데이터를 안정적으로 수집·정제·서빙하기 위해
+검증된 오픈소스 기술과 클라우드 인프라를 조합하여 사용합니다.
 
-### Core Technologies
+## 데이터 파이프라인
 
-| Technology | Purpose |
-|---|---|
-| Python | Backend services, data processing, AI/ML |
-| TypeScript | Web applications, developer tooling |
-| Quarto | Documentation and website |
-| MCP | Model Context Protocol for AI integration |
+```
+[공공 API / 웹 스크래핑]
+        ↓
+[수집 레이어]  Python · Go · GitHub Actions
+        ↓
+[정제 레이어]  파싱 · 정규화 · 중복 제거
+        ↓
+[저장 레이어]  PostgreSQL · 벡터 DB
+        ↓
+[서빙 레이어]  REST API · MCP · 웹 UI
+```
 
-### Infrastructure
+### 수집 & 정제
 
-- **GitHub Actions** — CI/CD pipelines
-- **GitHub Pages** — Static site hosting
-- **Docker** — Containerized deployments
+| 기술 | 역할 |
+|------|------|
+| Python | 데이터 수집, 전처리, AI/ML 파이프라인 |
+| Go | 경량 서버, CLI 도구 (ragpan) |
+| GitHub Actions | CI/CD, 스케줄 기반 데이터 갱신 |
 
-### AI & Data
+### 저장 & 검색
 
-- **Retrieval-Augmented Generation (RAG)** — Grounded AI responses
-- **Vector databases** — Semantic search and embeddings
-- **Knowledge graphs** — Structured relationship modeling
+| 기술 | 역할 |
+|------|------|
+| PostgreSQL | 구조화 데이터 저장 |
+| 벡터 DB | 시맨틱 검색, 임베딩 |
+| Elasticsearch | 전문 검색 (full-text search) |
+
+## 인프라
+
+### 클라우드
+
+- **Oracle Cloud Infrastructure (OCI)** — 컴퓨트, 오브젝트 스토리지
+- **Cloudflare** — CDN, DNS, 보안, Pages (정적 사이트 호스팅)
+- **GitHub Pages** — 문서 및 오픈소스 프로젝트 사이트
+
+### 네트워크 & 보안
+
+- **Cloudflare Workers** — 엣지 라우팅, API 프록시
+- **Cloudflare Zero Trust** — 내부 서비스 접근 제어
+
+## AI & 데이터
+
+| 기술 | 역할 |
+|------|------|
+| RAG (Retrieval-Augmented Generation) | 문서 기반 AI 응답 |
+| MCP (Model Context Protocol) | AI 에이전트 - 데이터 연동 |
+| 임베딩 모델 | 시맨틱 유사도 검색 |
+
+## 오픈소스 프로젝트
+
+### AssemblyMCP
+
+국회 공공데이터 Open API를 MCP 서버로 래핑합니다.
+Claude, GPT 등 MCP를 지원하는 AI 에이전트가
+국회 데이터에 자연어로 질의할 수 있도록 합니다.
+
+```
+AI 에이전트 → MCP 클라이언트 → AssemblyMCP → 국회 API
+```
+
+### ragpan
+
+Go로 작성된 RAG 온보딩 도구입니다.
+벡터 검색 백엔드 연결, 청크 분할, LLM 호출을
+최소한의 설정으로 구성할 수 있습니다.
