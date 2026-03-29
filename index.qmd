@@ -1,178 +1,123 @@
 ---
 title: "StatPan"
-subtitle: "Clean, structured data for research & insights"
 page-layout: full
 toc: false
 ---
 
 ::: {#hero-banner .hero}
-## 연구 시간의 70%를 데이터 수집에 낭비하고 있진 않나요?
+## AI & Data Infra, For Agents
 
-법안, 회의록, 의결 기록이 5개 사이트에 흩어져 있습니다.
-StatPan은 이 데이터를 정제하고 구조화하여 연구에 바로 쓸 수 있게 만듭니다.
+공공 데이터를 수집·정제하고, AI 에이전트가 직접 활용할 수 있는
+인프라와 도구를 만듭니다.
 
 ::: {.hero-cta}
-[Leginote 얼리 액세스 신청](docs/leginote/index.qmd){.btn .btn-primary}
-[오픈소스 살펴보기](https://github.com/StatPan){.btn .btn-outline}
-:::
-
-::: {.hero-trust}
-국회 공식 Open API 기반 &middot; 270개 엔드포인트 지원 &middot; 핵심 도구 오픈소스
+[GitHub](https://github.com/StatPan){.btn .btn-outline}
+[Blog](blog/index.qmd){.btn .btn-outline}
 :::
 :::
 
 ::: {.section-label}
-문제
+서비스
 :::
 
-::: {.pain-section}
-::: {.pain-card}
-#### 분산된 데이터
-
-의안정보시스템, 열린국회, NARS, 법제처, 국회도서관.
-하나의 연구를 위해 5개 이상의 사이트를 오가야 합니다.
-:::
-
-::: {.pain-card}
-#### 정제되지 않은 원시 데이터
-
-다운로드해도 바로 쓸 수 없습니다.
-인코딩 오류, 비일관적 형식, 중복 레코드와 씨름하다 보면
-실제 분석 시간이 없어집니다.
-:::
-
-::: {.pain-card}
-#### 높은 API 진입 장벽
-
-국회 Open API는 270개에 달하지만, 직접 통합하려면
-각 엔드포인트마다 파싱 코드를 따로 작성해야 합니다.
-:::
-:::
-
-::: {.section-label}
-솔루션
-:::
-
-::: {.solution-section}
-::: {.solution-item}
-**단일 검색 플랫폼**
-
-법안, 회의록, 의원 정보, 투표 기록을
-하나의 검색창에서 조회합니다.
-5개 사이트를 오가는 대신 Leginote 한 곳에서.
-:::
-
-::: {.solution-item}
-**정제된 구조적 데이터**
-
-파싱, 정규화, 중복 제거까지 완료된 데이터를 즉시 활용합니다.
-데이터 수집·정제 시간 **80% 단축**.
-:::
-
-::: {.solution-item}
-**AI-native API**
-
-MCP 프로토콜을 지원하여 Claude, GPT 등의 AI 에이전트가
-입법 데이터에 직접 접근할 수 있습니다.
-:::
-:::
-
-::: {.divider}
-:::
-
-::: {.section-label}
-Services
-:::
-
-::: {.services}
-::: {.service-card .featured}
+::: {.projects-grid .projects-single}
+::: {.project-card .featured}
 ### Leginote
 
-입법 데이터 검색엔진 + 분석 플랫폼.
-국회 법안, 회의록, 의결 데이터를 구조화하여
-정책 연구와 입법 분석을 지원합니다.
+입법 데이터 검색 & 분석 플랫폼. 국회 법안, 회의록, 의결 데이터를
+구조화하여 정책 연구와 입법 분석을 지원합니다.
 
-**대상:** 정책연구원, 국회직원, 대학 연구자, 기업 컴플라이언스
-
-::: {.service-meta}
-[MVP 개발 중]{.badge .badge-active}
+::: {.project-meta}
+[개발 중]{.badge .badge-active}
+[Python]{.badge .badge-lang}
+:::
+:::
 :::
 
-[자세히 보기](docs/leginote/index.qmd){.btn}
+::: {.section-label}
+오픈소스
 :::
 
-::: {.service-card}
+::: {.projects-grid}
+::: {.project-card}
 ### AssemblyMCP
 
-국회 공공데이터 API 270개를 Model Context Protocol(MCP)로 래핑한
-오픈소스 서버. AI 에이전트가 입법 데이터에 자연어로 질의합니다.
+국회 공공 API를 MCP 서버로 래핑. AI 에이전트가
+입법 데이터에 자연어로 직접 접근합니다.
 
-**최신 버전:** v0.6.1
-
-::: {.service-meta}
+::: {.project-meta}
 [오픈소스]{.badge .badge-open}
+[Python]{.badge .badge-lang}
 :::
 
-[GitHub](https://github.com/StatPan/AssemblyMCP){.btn}
+[GitHub](https://github.com/StatPan/AssemblyMCP){.btn .btn-sm}
 :::
 
-::: {.service-card}
-### ragpan
+::: {.project-card}
+### agentproc
 
-Go 기반 RAG(검색 증강 생성) 온보딩 도구.
-벡터 검색과 LLM을 최소한의 설정으로 연결하는 경량 파이프라인.
+파일 기반 멀티레이어 에이전트 오케스트레이션.
+process → subprocess → thread 실행 모델.
 
-::: {.service-meta}
+::: {.project-meta}
 [오픈소스]{.badge .badge-open}
+[Go]{.badge .badge-lang}
 :::
 
-[GitHub](https://github.com/StatPan/ragpan){.btn}
-:::
-:::
-
-::: {.divider}
+[GitHub](https://github.com/StatPan/agentproc){.btn .btn-sm}
 :::
 
-::: {.trust-section}
-::: {.section-label}
-신뢰 기반
+::: {.project-card}
+### kr-data-portal-client
+
+data.go.kr 공공데이터포털 비동기 Python 클라이언트.
+
+::: {.project-meta}
+[오픈소스]{.badge .badge-open}
+[Python]{.badge .badge-lang}
 :::
 
-::: {.trust-grid}
-::: {.trust-item}
-**공식 데이터 소스**
-
-국회 공식 Open API, 의안정보시스템,
-법제처 공식 데이터만 사용합니다.
-출처가 불분명한 크롤링 데이터는 포함하지 않습니다.
+[GitHub](https://github.com/StatPan/kr-data-portal-client){.btn .btn-sm}
 :::
 
-::: {.trust-item}
-**투명한 파이프라인**
+::: {.project-card}
+### assembly-api-client
 
-데이터 수집·정제 파이프라인의 핵심 로직은
-GitHub에 공개되어 있습니다.
+국회 오픈 API 비동기 Python 클라이언트.
+동적 스펙 파싱 + Pydantic 타입 안전성.
+
+::: {.project-meta}
+[오픈소스]{.badge .badge-open}
+[Python]{.badge .badge-lang}
 :::
 
-::: {.trust-item}
-**개발자 친화적 통합**
-
-REST API, MCP 서버, Python/Go SDK 중
-원하는 방식으로 데이터를 통합하세요.
-:::
-:::
+[GitHub](https://github.com/StatPan/assembly-api-client){.btn .btn-sm}
 :::
 
-::: {.divider}
+::: {.project-card}
+### dart-api-client
+
+금융감독원 DART 전자공시 API 비동기 Python 클라이언트.
+
+::: {.project-meta}
+[오픈소스]{.badge .badge-open}
+[Python]{.badge .badge-lang}
 :::
 
-::: {.cta-bottom}
-### 연구에만 집중하세요
+[GitHub](https://github.com/StatPan/dart-api-client){.btn .btn-sm}
+:::
 
-데이터 수집과 정제는 StatPan이 합니다.
+::: {.project-card}
+### lawpy
 
-::: {.hero-cta}
-[Leginote 얼리 액세스 신청](docs/leginote/index.qmd){.btn .btn-primary}
-[기술 문서 보기](docs/index.qmd){.btn}
+법령 정보 API 클라이언트 라이브러리.
+다국가 지원, 타입 안전성.
+
+::: {.project-meta}
+[오픈소스]{.badge .badge-open}
+[Python]{.badge .badge-lang}
+:::
+
+[GitHub](https://github.com/StatPan/lawpy){.btn .btn-sm}
 :::
 :::
