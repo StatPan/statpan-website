@@ -68,16 +68,16 @@ process → subprocess → thread 실행 모델.
 :::
 
 ::: {.project-card}
-### kr-data-portal-client
+### pub-api-client
 
-data.go.kr 공공데이터포털 비동기 Python 클라이언트.
+공공데이터포털(data.go.kr) 커버리지 매핑 & 자동화 시스템.
 
 ::: {.project-meta}
 [오픈소스]{.badge .badge-open}
 [Python]{.badge .badge-lang}
 :::
 
-[GitHub](https://github.com/StatPan/kr-data-portal-client){.btn .btn-sm}
+[GitHub](https://github.com/StatPan/pub-api-client){.btn .btn-sm}
 :::
 
 ::: {.project-card}
