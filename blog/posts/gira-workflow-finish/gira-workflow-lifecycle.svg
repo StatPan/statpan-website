@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub operations and Gira lifecycle</title>
+  <desc id="desc">A comparison between raw GitHub operations and the Gira start, PR, and finish lifecycle.</desc>
+  <rect width="1200" height="675" fill="#f2f1ec"/>
+  <rect x="62" y="54" width="1076" height="567" rx="28" fill="#171717"/>
+  <text x="104" y="122" fill="#f2f1ec" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700">Closing an issue is not the same as finishing work</text>
+  <text x="104" y="162" fill="#cfcabf" font-family="Inter, Arial, sans-serif" font-size="22">Gira turns raw GitHub operations into a start, review, and finish lifecycle.</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="112" y="232" fill="#f2f1ec" font-size="24" font-weight="700">Raw GitHub operations</text>
+    <text x="690" y="232" fill="#f2f1ec" font-size="24" font-weight="700">Gira lifecycle</text>
+
+    <g font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+      <rect x="112" y="274" width="148" height="58" rx="14" fill="#d6e0e2"/>
+      <text x="186" y="303" fill="#171717">Issue</text>
+      <rect x="292" y="274" width="148" height="58" rx="14" fill="#d6e0e2"/>
+      <text x="366" y="303" fill="#171717">Branch</text>
+      <rect x="472" y="274" width="148" height="58" rx="14" fill="#d6e0e2"/>
+      <text x="546" y="303" fill="#171717">PR</text>
+      <rect x="112" y="374" width="148" height="58" rx="14" fill="#eee9dc"/>
+      <text x="186" y="403" fill="#171717">Checks</text>
+      <rect x="292" y="374" width="148" height="58" rx="14" fill="#eee9dc"/>
+      <text x="366" y="403" fill="#171717">Review</text>
+      <rect x="472" y="374" width="148" height="58" rx="14" fill="#eee9dc"/>
+      <text x="546" y="403" fill="#171717">Labels</text>
+
+      <rect x="690" y="274" width="120" height="58" rx="14" fill="#9fd0b3"/>
+      <text x="750" y="303" fill="#171717">Start</text>
+      <rect x="850" y="274" width="120" height="58" rx="14" fill="#9fd0b3"/>
+      <text x="910" y="303" fill="#171717">PR</text>
+      <rect x="1010" y="274" width="120" height="58" rx="14" fill="#9fd0b3"/>
+      <text x="1070" y="303" fill="#171717">Finish</text>
+    </g>
+
+    <g stroke="#f2f1ec" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.82">
+      <path d="M260 303 H292"/>
+      <path d="M440 303 H472"/>
+      <path d="M186 332 V374"/>
+      <path d="M366 332 V374"/>
+      <path d="M546 332 V374"/>
+      <path d="M810 303 H850"/>
+      <path d="M970 303 H1010"/>
+    </g>
+
+    <g fill="#cfcabf" font-size="18">
+      <text x="112" y="492">Possible drift: merged PR, closed issue, stale label, missing closing keyword, unclear review evidence.</text>
+      <text x="690" y="390">start: read issue, create branch, mark in progress</text>
+      <text x="690" y="426">pr: link issue, carry review context, request checks</text>
+      <text x="690" y="462">finish: inspect state, merge, close, normalize labels</text>
+    </g>
+
+    <rect x="112" y="532" width="966" height="1" fill="#5f5b52"/>
+    <text x="112" y="574" fill="#f2f1ec" font-size="20" font-weight="700">The target is not more GitHub commands. The target is a work state you can trust.</text>
+  </g>
+</svg>
