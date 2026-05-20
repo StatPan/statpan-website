@@ -1,0 +1,212 @@
+{
+  "snapshot_date": "2026-04-01",
+  "growth_score": 59.8,
+  "growth_direction": "rising",
+  "inflation_score": 66.1,
+  "inflation_direction": "rising",
+  "policy_score": -0.2,
+  "policy_direction": "holding",
+  "risk_score": 51.9,
+  "regime_label": "과열",
+  "regime_summary": "성장과 물가가 동시에 상승. 원자재·인플레 헤지 자산 유리. 중앙은행 긴축 압력 증가 구간.",
+  "indicators": {
+    "DFF": 3.64,
+    "EEM": 56.790000915527344,
+    "GC_F": 4700.5,
+    "GSPC": 6528.52001953125,
+    "HG_F": 5.6504998207092285,
+    "ICSA": 210000.0,
+    "KS11": 5123.64013671875,
+    "M2SL": 22667.3,
+    "NFCI": -0.47504,
+    "IPMAN": 98.3027,
+    "KRW_X": 1516.1300048828125,
+    "RSAFS": 733537.0,
+    "T5YIE": 2.54,
+    "WALCL": 6657161.0,
+    "DFII10": 2.04,
+    "T10Y2Y": 0.51,
+    "T10YIE": 2.3,
+    "UNRATE": 4.4,
+    "VIXCLS": 30.61,
+    "KOR_CPI": 118.4,
+    "KOR_PPI": 123.25,
+    "CPILFESL": 333.512,
+    "PCEPILFE": 128.394,
+    "CHN_CPI_YOY": 1.3,
+    "CHN_PPI_YOY": -0.9,
+    "BAMLC0A0CMEY": 5.16,
+    "BAMLH0A0HYM2": 3.46,
+    "DEXKOUS_ECOS": 1530.5,
+    "KOR_BASE_RATE": 2.5,
+    "KOR_IMPORT_PRICE_KRW": 145.39,
+    "KOR_IMPORT_PRICE_USD": 118.29,
+    "KOR_INVESTOR_DEPOSIT": 112837248830113.0,
+    "CHN_MANUFACTURING_PMI": 49.0,
+    "KOR_MARGIN_DEBT_TOTAL": 32784473870230.0,
+    "KOR_ALL_INDUSTRY_PRODUCTION_SA": 114.7
+  },
+  "sector_scores": [
+    {
+      "idx_nm": "금속",
+      "zscore": 2.4,
+      "cooling_score": 80.2,
+      "neglect_score": 79.2,
+      "rebound_score": 79.6,
+      "recent_excess_20d": -11.22
+    },
+    {
+      "idx_nm": "코스피 200 중공업",
+      "zscore": 1.7,
+      "cooling_score": 50.0,
+      "neglect_score": 97.9,
+      "rebound_score": 78.8,
+      "recent_excess_20d": -17.06
+    },
+    {
+      "idx_nm": "IT 서비스",
+      "zscore": 1.29,
+      "cooling_score": 51.0,
+      "neglect_score": 96.9,
+      "rebound_score": 78.5,
+      "recent_excess_20d": -12.98
+    },
+    {
+      "idx_nm": "전기·가스",
+      "zscore": 2.11,
+      "cooling_score": 79.2,
+      "neglect_score": 76.0,
+      "rebound_score": 77.3,
+      "recent_excess_20d": -5.11
+    },
+    {
+      "idx_nm": "코스피 200 철강/소재",
+      "zscore": 2.23,
+      "cooling_score": 56.2,
+      "neglect_score": 81.2,
+      "rebound_score": 71.2,
+      "recent_excess_20d": -10.81
+    },
+    {
+      "idx_nm": "기계·장비",
+      "zscore": 2.07,
+      "cooling_score": 50.0,
+      "neglect_score": 82.3,
+      "rebound_score": 69.4,
+      "recent_excess_20d": -9.22
+    },
+    {
+      "idx_nm": "부동산",
+      "zscore": 2.05,
+      "cooling_score": 32.3,
+      "neglect_score": 91.7,
+      "rebound_score": 67.9,
+      "recent_excess_20d": -14.07
+    },
+    {
+      "idx_nm": "일반서비스",
+      "zscore": 1.85,
+      "cooling_score": 38.5,
+      "neglect_score": 82.3,
+      "rebound_score": 64.8,
+      "recent_excess_20d": -8.22
+    },
+    {
+      "idx_nm": "코스피 200 초대형제외 지수",
+      "zscore": 2.71,
+      "cooling_score": 69.8,
+      "neglect_score": 61.5,
+      "rebound_score": 64.8,
+      "recent_excess_20d": -3.11
+    },
+    {
+      "idx_nm": "비금속",
+      "zscore": 2.02,
+      "cooling_score": 53.1,
+      "neglect_score": 71.9,
+      "rebound_score": 64.4,
+      "recent_excess_20d": -2.21
+    },
+    {
+      "idx_nm": "코스피 200 산업재",
+      "zscore": 2.3,
+      "cooling_score": 36.5,
+      "neglect_score": 82.3,
+      "rebound_score": 64.0,
+      "recent_excess_20d": -12.36
+    },
+    {
+      "idx_nm": "음식료·담배",
+      "zscore": 1.83,
+      "cooling_score": 37.5,
+      "neglect_score": 80.2,
+      "rebound_score": 63.1,
+      "recent_excess_20d": -3.44
+    },
+    {
+      "idx_nm": "코스피 200 생활소비재",
+      "zscore": 2.26,
+      "cooling_score": 58.3,
+      "neglect_score": 61.5,
+      "rebound_score": 60.2,
+      "recent_excess_20d": -0.45
+    },
+    {
+      "idx_nm": "코스피 200 커뮤니케이션서비스",
+      "zscore": 2.17,
+      "cooling_score": 42.7,
+      "neglect_score": 71.9,
+      "rebound_score": 60.2,
+      "recent_excess_20d": -2.98
+    },
+    {
+      "idx_nm": "코스피 200 헬스케어",
+      "zscore": 2.59,
+      "cooling_score": 38.5,
+      "neglect_score": 69.8,
+      "rebound_score": 57.3,
+      "recent_excess_20d": -8.68
+    },
+    {
+      "idx_nm": "코스피 200 TOP 10",
+      "zscore": 2.97,
+      "cooling_score": 49.0,
+      "neglect_score": 61.5,
+      "rebound_score": 56.5,
+      "recent_excess_20d": -10.88
+    },
+    {
+      "idx_nm": "제약",
+      "zscore": 2.62,
+      "cooling_score": 26.0,
+      "neglect_score": 76.0,
+      "rebound_score": 56.0,
+      "recent_excess_20d": -12.78
+    },
+    {
+      "idx_nm": "섬유·의류",
+      "zscore": 1.79,
+      "cooling_score": 22.9,
+      "neglect_score": 77.1,
+      "rebound_score": 55.4,
+      "recent_excess_20d": -2.38
+    },
+    {
+      "idx_nm": "운송장비·부품",
+      "zscore": 2.32,
+      "cooling_score": 7.3,
+      "neglect_score": 86.5,
+      "rebound_score": 54.8,
+      "recent_excess_20d": -19.21
+    },
+    {
+      "idx_nm": "코스피 200 에너지/화학",
+      "zscore": 2.81,
+      "cooling_score": 70.8,
+      "neglect_score": 42.7,
+      "rebound_score": 54.0,
+      "recent_excess_20d": 0.38
+    }
+  ],
+  "stock_scores": null
+}

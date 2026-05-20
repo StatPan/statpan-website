@@ -1,10 +1,12 @@
-# statpan-website
+# statpan-website target
 
-StatPan company website built with [Quarto](https://quarto.org).
+StatPan company website target inside `contents/autocon`, built with [Quarto](https://quarto.org).
 
 ## Development
 
 ```bash
+cd targets/statpan-website
+
 # Preview locally
 quarto preview
 
@@ -22,4 +24,8 @@ quarto render
 
 ## Deployment
 
-Automatically deployed to GitHub Pages via GitHub Actions on push to `main`.
+Deployment is owned by autocon at `.github/workflows/statpan-website-pages.yml`.
+The rendered site preserves the `statpan.com` custom domain through `CNAME`.
+
+The old standalone repository workflow is preserved for reference at
+`_archive/standalone-repo/publish.yml`.

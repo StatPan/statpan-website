@@ -1,17 +1,29 @@
 project:
   type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "blog/**/*.qmd"
+    - "docs/**/*.qmd"
+    - "macro/**/*.qmd"
+  resources:
+    - CNAME
 
 website:
   title: "StatPan"
   site-url: https://statpan.com
   description: "AI & Data Infra, For Agents"
   google-analytics: "G-T89ZMSEYS4"
+  open-graph: true
+  twitter-card: true
   navbar:
     background: dark
     foreground: light
     left:
       - href: index.qmd
         text: Home
+      - href: macro/index.qmd
+        text: Macro
       - href: blog/index.qmd
         text: Blog
     right:
@@ -25,6 +37,6 @@ website:
 format:
   html:
     theme:
-      light: [flatly, custom.scss]
+      dark: [darkly, custom.scss]
     css: styles.css
     toc: true

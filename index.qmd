@@ -1,123 +1,299 @@
 ---
-title: "StatPan"
 page-layout: full
 toc: false
+listing:
+  id: recent-insights
+  contents:
+    - "blog/posts/**/*.qmd"
+  sort: "date desc"
+  type: grid
+  max-items: 3
+  categories: false
+  date-format: "YYYY-MM-DD"
 ---
 
-::: {#hero-banner .hero}
-## AI & Data Infra, For Agents
+::: {.hero-wrapper}
+<canvas id="particle-canvas"></canvas>
 
-공공 데이터를 수집·정제하고, AI 에이전트가 직접 활용할 수 있는
-인프라와 도구를 만듭니다.
+::: {.hero-content}
+::: {.typing-container}
+<span class="typing-prefix">></span>
+<span id="typing-text"></span>
+<span class="typing-cursor">_</span>
+:::
+
+<p class="hero-subtitle">
+공공 데이터를 수집·정제하고, AI 에이전트가 직접 활용할 수 있는<br>
+강력하고 유연한 인프라스트럭처를 만듭니다.
+</p>
 
 ::: {.hero-cta}
-[GitHub](https://github.com/StatPan){.btn .btn-outline}
-[Blog](blog/index.qmd){.btn .btn-outline}
-:::
-:::
-
-::: {.section-label}
-서비스
-:::
-
-::: {.projects-grid .projects-single}
-::: {.project-card .featured}
-### Leginote
-
-입법 데이터 검색 & 분석 플랫폼. 국회 법안, 회의록, 의결 데이터를
-구조화하여 정책 연구와 입법 분석을 지원합니다.
-
-::: {.project-meta}
-[개발 중]{.badge .badge-active}
-[Python]{.badge .badge-lang}
+<a href="#ecosystem" class="btn-primary">Explore Ecosystem</a>
+<a href="https://github.com/StatPan" class="btn-outline">GitHub</a>
 :::
 :::
 :::
 
-::: {.section-label}
-오픈소스
+::: {.metrics-bar}
+::: {.metric-item}
+<span class="metric-value">270+</span>
+<span class="metric-label">Public APIs Wrapped</span>
 :::
-
-::: {.projects-grid}
-::: {.project-card}
-### AssemblyMCP
-
-국회 공공 API를 MCP 서버로 래핑. AI 에이전트가
-입법 데이터에 자연어로 직접 접근합니다.
-
-::: {.project-meta}
-[오픈소스]{.badge .badge-open}
-[Python]{.badge .badge-lang}
+::: {.metric-item}
+<span class="metric-value">100%</span>
+<span class="metric-label">Type-Safe (Pydantic/Go)</span>
 :::
-
-[GitHub](https://github.com/StatPan/AssemblyMCP){.btn .btn-sm}
-:::
-
-::: {.project-card}
-### agentproc
-
-파일 기반 멀티레이어 에이전트 오케스트레이션.
-process → subprocess → thread 실행 모델.
-
-::: {.project-meta}
-[오픈소스]{.badge .badge-open}
-[Go]{.badge .badge-lang}
-:::
-
-[GitHub](https://github.com/StatPan/agentproc){.btn .btn-sm}
-:::
-
-::: {.project-card}
-### pub-api-client
-
-공공데이터포털(data.go.kr) 커버리지 매핑 & 자동화 시스템.
-
-::: {.project-meta}
-[오픈소스]{.badge .badge-open}
-[Python]{.badge .badge-lang}
-:::
-
-[GitHub](https://github.com/StatPan/pub-api-client){.btn .btn-sm}
-:::
-
-::: {.project-card}
-### assembly-api-client
-
-국회 오픈 API 비동기 Python 클라이언트.
-동적 스펙 파싱 + Pydantic 타입 안전성.
-
-::: {.project-meta}
-[오픈소스]{.badge .badge-open}
-[Python]{.badge .badge-lang}
-:::
-
-[GitHub](https://github.com/StatPan/assembly-api-client){.btn .btn-sm}
-:::
-
-::: {.project-card}
-### dart-api-client
-
-금융감독원 DART 전자공시 API 비동기 Python 클라이언트.
-
-::: {.project-meta}
-[오픈소스]{.badge .badge-open}
-[Python]{.badge .badge-lang}
-:::
-
-[GitHub](https://github.com/StatPan/dart-api-client){.btn .btn-sm}
-:::
-
-::: {.project-card}
-### lawpy
-
-법령 정보 API 클라이언트 라이브러리.
-다국가 지원, 타입 안전성.
-
-::: {.project-meta}
-[오픈소스]{.badge .badge-open}
-[Python]{.badge .badge-lang}
-:::
-
-[GitHub](https://github.com/StatPan/lawpy){.btn .btn-sm}
+::: {.metric-item}
+<span class="metric-value">Async</span>
+<span class="metric-label">High-Performance IO</span>
 :::
 :::
+
+<h2 class="section-title" id="ecosystem">The StatPan Pipeline</h2>
+<p class="section-subtitle reveal">A cohesive data lifecycle for modern AI agents.</p>
+
+::: {.pipeline-stage}
+<span class="stage-label">1. Data Acquisition (Extract & Clean)</span>
+
+::: {.bento-grid}
+::: {.bento-card}
+<h3>assembly-api-client</h3>
+::: {.badge-group}
+<span class="badge badge-lang">Python</span>
+<span class="badge badge-core">Async</span>
+:::
+<p>국회 오픈 API 비동기 Python 클라이언트. 동적 스펙 파싱과 Pydantic을 통한 타입 안전성을 보장합니다.</p>
+<a href="https://github.com/StatPan/assembly-api-client" class="card-link">View Source →</a>
+:::
+
+::: {.bento-card}
+<h3>pub-api-client</h3>
+::: {.badge-group}
+<span class="badge badge-lang">Python</span>
+:::
+<p>공공데이터포털(data.go.kr) 커버리지 매핑 및 자동화 수집 시스템.</p>
+<a href="https://github.com/StatPan/pub-api-client" class="card-link">View Source →</a>
+:::
+
+::: {.bento-card}
+<h3>dart-api-client</h3>
+::: {.badge-group}
+<span class="badge badge-lang">Python</span>
+:::
+<p>금융감독원 DART 전자공시 API 비동기 클라이언트.</p>
+<a href="https://github.com/StatPan/dart-api-client" class="card-link">View Source →</a>
+:::
+
+::: {.bento-card}
+<h3>lawpy</h3>
+::: {.badge-group}
+<span class="badge badge-lang">Python</span>
+:::
+<p>법령 정보 API 클라이언트. 다국가 지원 및 구조화된 법률 데이터를 제공합니다.</p>
+<a href="https://github.com/StatPan/lawpy" class="card-link">View Source →</a>
+:::
+:::
+:::
+
+::: {.pipeline-stage}
+<span class="stage-label">2. Orchestration & Serving (Agent Layer)</span>
+
+::: {.bento-grid style="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));"}
+::: {.bento-card}
+<h3>AssemblyMCP</h3>
+::: {.badge-group}
+<span class="badge badge-lang">Python</span>
+<span class="badge badge-core">MCP</span>
+:::
+<p>국회 공공 API를 Model Context Protocol(MCP) 서버로 래핑. AI 에이전트(Claude, Cursor 등)가 입법 데이터에 자연어로 직접 접근하고 쿼리할 수 있게 합니다.</p>
+<a href="https://github.com/StatPan/AssemblyMCP" class="card-link">View Source →</a>
+:::
+
+::: {.bento-card}
+<h3>agentproc</h3>
+::: {.badge-group}
+<span class="badge badge-lang">Go</span>
+<span class="badge badge-core">Concurrency</span>
+:::
+<p>파일 기반 멀티레이어 에이전트 오케스트레이션. process → subprocess → thread 실행 모델을 통해 복잡한 에이전트 워크플로우를 고속으로 처리합니다.</p>
+<a href="https://github.com/StatPan/agentproc" class="card-link">View Source →</a>
+:::
+:::
+:::
+
+::: {.pipeline-stage}
+<span class="stage-label">3. End-User Service (Insight)</span>
+
+::: {.bento-grid style="grid-template-columns: 1fr;"}
+::: {.bento-card}
+<h3>Leginote <span class="badge badge-core" style="margin-left:8px;">개발 중</span></h3>
+<p>입법 데이터 검색 & 분석 플랫폼. 위 파이프라인(assembly-api-client → Agent)을 기반으로 국회 법안, 회의록, 의결 데이터를 구조화하여 정책 연구와 입법 분석을 지원하는 B2B/B2C 서비스.</p>
+:::
+:::
+:::
+
+<h2 class="section-title reveal" style="margin-top: 5rem;">Recent Insights</h2>
+<p class="section-subtitle reveal">Latest updates and architectural thoughts.</p>
+
+::: {.bento-grid style="margin-bottom: 5rem;"}
+::: {#recent-insights}
+:::
+:::
+
+<script>
+// Typing Effect Logic
+(function() {
+  const phrases = [
+    "AI & Data Infra, For Agents",
+    "Public Data to Structured Insight",
+    "Building the Agentic Data Layer",
+    "270 APIs, One MCP Server"
+  ];
+  let phraseIdx = 0, charIdx = 0, deleting = false;
+  const el = document.getElementById("typing-text");
+  if (!el) return;
+
+  function tick() {
+    const current = phrases[phraseIdx];
+    if (!deleting) {
+      el.textContent = current.substring(0, charIdx + 1);
+      charIdx++;
+      if (charIdx === current.length) {
+        setTimeout(() => { deleting = true; tick(); }, 2500);
+        return;
+      }
+      setTimeout(tick, 40 + Math.random() * 40);
+    } else {
+      el.textContent = current.substring(0, charIdx - 1);
+      charIdx--;
+      if (charIdx === 0) {
+        deleting = false;
+        phraseIdx = (phraseIdx + 1) % phrases.length;
+        setTimeout(tick, 500);
+        return;
+      }
+      setTimeout(tick, 20);
+    }
+  }
+  setTimeout(tick, 1000);
+})();
+
+// Canvas Particle Network Logic (Lightweight)
+(function initCanvas() {
+  const canvas = document.getElementById('particle-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  let particles = [];
+  let mouse = { x: null, y: null, radius: 150 };
+  canvas.parentElement.addEventListener('mousemove', function(e) {
+      const rect = canvas.getBoundingClientRect();
+      mouse.x = e.clientX - rect.left;
+      mouse.y = e.clientY - rect.top;
+  });
+  canvas.parentElement.addEventListener('mouseleave', function() {
+      mouse.x = null;
+      mouse.y = null;
+  });
+
+  // Space Configuration
+  const properties = {
+      particleColor: 'rgba(255, 255, 255, 0.8)', // Star white
+      particleRadius: 1.8,
+      particleCount: 90,
+      particleMaxVelocity: 0.1,
+      lineMaxDist: 130,
+      lineColor: '100, 116, 139' // Slate Gray for faint connections
+  };
+
+  function resize() {
+      if (!canvas.parentElement) return;
+      canvas.width = canvas.parentElement.offsetWidth;
+      canvas.height = canvas.parentElement.offsetHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  class Particle {
+      constructor() {
+          this.x = Math.random() * canvas.width;
+          this.y = Math.random() * canvas.height;
+          this.velocityX = (Math.random() - 0.5) * properties.particleMaxVelocity * 2;
+          this.velocityY = (Math.random() - 0.5) * properties.particleMaxVelocity * 2;
+      }
+      update() {
+          if (this.x + this.velocityX > canvas.width || this.x + this.velocityX < 0) this.velocityX *= -1;
+          if (this.y + this.velocityY > canvas.height || this.y + this.velocityY < 0) this.velocityY *= -1;
+          this.x += this.velocityX;
+          this.y += this.velocityY;
+
+          // Mouse interaction
+          if (mouse.x != null && mouse.y != null) {
+              let dx = mouse.x - this.x;
+              let dy = mouse.y - this.y;
+              let distance = Math.sqrt(dx * dx + dy * dy);
+              if (distance < mouse.radius) {
+                  this.x += dx * 0.015;
+                  this.y += dy * 0.015;
+              }
+          }
+      }
+  }
+
+  function drawLines() {
+      for (let i = 0; i < particles.length; i++) {
+          for (let j = i + 1; j < particles.length; j++) {
+              const dx = particles[i].x - particles[j].x;
+              const dy = particles[i].y - particles[j].y;
+              const dist = Math.sqrt(dx * dx + dy * dy);
+              if (dist < properties.lineMaxDist) {
+                  ctx.lineWidth = 0.5;
+                  ctx.strokeStyle = `rgba(${properties.lineColor}, ${1 - dist / properties.lineMaxDist})`;
+                  ctx.beginPath();
+                  ctx.moveTo(particles[i].x, particles[i].y);
+                  ctx.lineTo(particles[j].x, particles[j].y);
+                  ctx.stroke();
+              }
+          }
+      }
+  }
+
+  function loop() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach(p => {
+          p.update();
+          ctx.fillStyle = properties.particleColor;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, properties.particleRadius, 0, Math.PI * 2);
+          ctx.fill();
+      });
+      drawLines();
+      requestAnimationFrame(loop);
+  }
+
+  for (let i = 0; i < properties.particleCount; i++) particles.push(new Particle());
+  loop();
+})();
+
+// Scroll Reveal Observer
+document.addEventListener("DOMContentLoaded", () => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+});
+
+// Bento Card Spotlight Effect
+document.querySelectorAll('.bento-card').forEach(card => {
+  card.addEventListener('mousemove', e => {
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    card.style.setProperty('--mouse-x', `${x}px`);
+    card.style.setProperty('--mouse-y', `${y}px`);
+  });
+});
+</script>

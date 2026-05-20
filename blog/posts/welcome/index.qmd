@@ -1,0 +1,17 @@
+---
+title: "Welcome to StatPan"
+description: "Why we are building the agentic data layer."
+author: "StatPan Team"
+date: "2026-04-01"
+categories: [Infrastructure, Agent]
+---
+
+The world of data is changing. Instead of human analysts manually downloading CSVs or parsing PDFs, we are entering the era of AI agents. These agents need structured, reliable, and real-time data pipelines to make decisions.
+
+That is why we built **StatPan**.
+
+StatPan wraps hundreds of public APIs into highly reliable, asynchronous Python/Go clients, and exposes them directly to Large Language Models (LLMs) via the Model Context Protocol (MCP).
+
+### What's next?
+
+We will be posting our architectural thoughts, performance benchmarks, and deep dives into the macroeconomic data we collect right here on this blog. Stay tuned!

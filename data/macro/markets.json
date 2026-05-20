@@ -1,0 +1,2812 @@
+[
+  {
+    "series_id": "EEM",
+    "prd_de": "20260302",
+    "data_value": 61.5
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260303",
+    "data_value": 58.41999816894531
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260304",
+    "data_value": 59.04999923706055
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260305",
+    "data_value": 57.630001068115234
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260306",
+    "data_value": 57.31999969482422
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260309",
+    "data_value": 58.45000076293945
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260310",
+    "data_value": 58.68000030517578
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260311",
+    "data_value": 58.83000183105469
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260312",
+    "data_value": 56.95000076293945
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260313",
+    "data_value": 56.79999923706055
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260316",
+    "data_value": 58.380001068115234
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260317",
+    "data_value": 58.75
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260318",
+    "data_value": 57.560001373291016
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260319",
+    "data_value": 57.619998931884766
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260320",
+    "data_value": 55.63999938964844
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260323",
+    "data_value": 57.310001373291016
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260324",
+    "data_value": 56.52000045776367
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260325",
+    "data_value": 57.41999816894531
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260326",
+    "data_value": 55.470001220703125
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260327",
+    "data_value": 55.20000076293945
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260330",
+    "data_value": 54.75
+  },
+  {
+    "series_id": "EEM",
+    "prd_de": "20260331",
+    "data_value": 56.790000915527344
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260102",
+    "data_value": 4314.39990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260105",
+    "data_value": 4436.89990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260106",
+    "data_value": 4482.2001953125
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260107",
+    "data_value": 4449.2998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260108",
+    "data_value": 4449.7001953125
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260109",
+    "data_value": 4490.2998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260112",
+    "data_value": 4604.2998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260113",
+    "data_value": 4589.2001953125
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260114",
+    "data_value": 4626.2998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260115",
+    "data_value": 4616.2998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260116",
+    "data_value": 4588.39990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260120",
+    "data_value": 4759.60009765625
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260121",
+    "data_value": 4831.7998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260122",
+    "data_value": 4908.7998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260123",
+    "data_value": 4976.2001953125
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260126",
+    "data_value": 5079.7001953125
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260127",
+    "data_value": 5079.89990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260128",
+    "data_value": 5301.60009765625
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260129",
+    "data_value": 5318.39990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260130",
+    "data_value": 4713.89990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260202",
+    "data_value": 4622.5
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260203",
+    "data_value": 4903.7001953125
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260204",
+    "data_value": 4920.39990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260205",
+    "data_value": 4861.39990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260206",
+    "data_value": 4951.2001953125
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260209",
+    "data_value": 5050.89990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260210",
+    "data_value": 5003.7998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260211",
+    "data_value": 5071.60009765625
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260212",
+    "data_value": 4923.7001953125
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260213",
+    "data_value": 5022
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260217",
+    "data_value": 4882.89990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260218",
+    "data_value": 4986.5
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260219",
+    "data_value": 4975.89990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260220",
+    "data_value": 5059.2998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260223",
+    "data_value": 5204.7001953125
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260224",
+    "data_value": 5155.7998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260225",
+    "data_value": 5206.39990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260226",
+    "data_value": 5176.5
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260227",
+    "data_value": 5230.5
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260302",
+    "data_value": 5294.39990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260303",
+    "data_value": 5107.39990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260304",
+    "data_value": 5120.2001953125
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260305",
+    "data_value": 5065.2998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260306",
+    "data_value": 5146.10009765625
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260309",
+    "data_value": 5091.5
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260310",
+    "data_value": 5229.7001953125
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260311",
+    "data_value": 5167.39990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260312",
+    "data_value": 5115.7998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260313",
+    "data_value": 5052.5
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260316",
+    "data_value": 4994
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260317",
+    "data_value": 5001
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260318",
+    "data_value": 4889.89990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260319",
+    "data_value": 4600.7001953125
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260320",
+    "data_value": 4570.39990234375
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260323",
+    "data_value": 4404.10009765625
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260324",
+    "data_value": 4399.2998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260325",
+    "data_value": 4549.7998046875
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260326",
+    "data_value": 4375.5
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260327",
+    "data_value": 4492
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260330",
+    "data_value": 4526
+  },
+  {
+    "series_id": "GC_F",
+    "prd_de": "20260331",
+    "data_value": 4700.5
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260102",
+    "data_value": 6858.47021484375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260105",
+    "data_value": 6902.0498046875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260106",
+    "data_value": 6944.81982421875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260107",
+    "data_value": 6920.93017578125
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260108",
+    "data_value": 6921.4599609375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260109",
+    "data_value": 6966.27978515625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260112",
+    "data_value": 6977.27001953125
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260113",
+    "data_value": 6963.740234375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260114",
+    "data_value": 6926.60009765625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260115",
+    "data_value": 6944.47021484375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260116",
+    "data_value": 6940.009765625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260120",
+    "data_value": 6796.85986328125
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260121",
+    "data_value": 6875.6201171875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260122",
+    "data_value": 6913.35009765625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260123",
+    "data_value": 6915.60986328125
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260126",
+    "data_value": 6950.22998046875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260127",
+    "data_value": 6978.60009765625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260128",
+    "data_value": 6978.02978515625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260129",
+    "data_value": 6969.009765625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260130",
+    "data_value": 6939.02978515625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260202",
+    "data_value": 6976.43994140625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260203",
+    "data_value": 6917.81005859375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260204",
+    "data_value": 6882.72021484375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260205",
+    "data_value": 6798.39990234375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260206",
+    "data_value": 6932.2998046875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260209",
+    "data_value": 6964.81982421875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260210",
+    "data_value": 6941.81005859375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260211",
+    "data_value": 6941.47021484375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260212",
+    "data_value": 6832.759765625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260213",
+    "data_value": 6836.169921875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260217",
+    "data_value": 6843.22021484375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260218",
+    "data_value": 6881.31005859375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260219",
+    "data_value": 6861.89013671875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260220",
+    "data_value": 6909.509765625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260223",
+    "data_value": 6837.75
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260224",
+    "data_value": 6890.06982421875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260225",
+    "data_value": 6946.1298828125
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260226",
+    "data_value": 6908.85986328125
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260227",
+    "data_value": 6878.8798828125
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260302",
+    "data_value": 6881.6201171875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260303",
+    "data_value": 6816.6298828125
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260304",
+    "data_value": 6869.5
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260305",
+    "data_value": 6830.7099609375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260306",
+    "data_value": 6740.02001953125
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260309",
+    "data_value": 6795.990234375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260310",
+    "data_value": 6781.47998046875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260311",
+    "data_value": 6775.7998046875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260312",
+    "data_value": 6672.6201171875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260313",
+    "data_value": 6632.18994140625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260316",
+    "data_value": 6699.3798828125
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260317",
+    "data_value": 6716.08984375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260318",
+    "data_value": 6624.7001953125
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260319",
+    "data_value": 6606.490234375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260320",
+    "data_value": 6506.47998046875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260323",
+    "data_value": 6581
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260324",
+    "data_value": 6556.3701171875
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260325",
+    "data_value": 6591.89990234375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260326",
+    "data_value": 6477.16015625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260327",
+    "data_value": 6368.85009765625
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260330",
+    "data_value": 6343.72021484375
+  },
+  {
+    "series_id": "GSPC",
+    "prd_de": "20260331",
+    "data_value": 6528.52001953125
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260102",
+    "data_value": 5.639999866485596
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260105",
+    "data_value": 5.924499988555908
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260106",
+    "data_value": 6.010499954223633
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260107",
+    "data_value": 5.809000015258789
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260108",
+    "data_value": 5.746500015258789
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260109",
+    "data_value": 5.855500221252441
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260112",
+    "data_value": 5.985000133514404
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260113",
+    "data_value": 5.96999979019165
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260114",
+    "data_value": 6.008999824523926
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260115",
+    "data_value": 5.947999954223633
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260116",
+    "data_value": 5.78849983215332
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260120",
+    "data_value": 5.7729997634887695
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260121",
+    "data_value": 5.729499816894531
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260122",
+    "data_value": 5.742499828338623
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260123",
+    "data_value": 5.910999774932861
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260126",
+    "data_value": 5.984000205993652
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260127",
+    "data_value": 5.828499794006348
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260128",
+    "data_value": 5.892499923706055
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260129",
+    "data_value": 6.17549991607666
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260130",
+    "data_value": 5.896999835968018
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260202",
+    "data_value": 5.801499843597412
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260203",
+    "data_value": 6.0625
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260204",
+    "data_value": 5.826000213623047
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260205",
+    "data_value": 5.798999786376953
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260206",
+    "data_value": 5.863500118255615
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260209",
+    "data_value": 5.945000171661377
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260210",
+    "data_value": 5.895999908447266
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260211",
+    "data_value": 5.948999881744385
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260212",
+    "data_value": 5.770999908447266
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260213",
+    "data_value": 5.792500019073486
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260217",
+    "data_value": 5.632999897003174
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260218",
+    "data_value": 5.793499946594238
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260219",
+    "data_value": 5.730000019073486
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260220",
+    "data_value": 5.830999851226807
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260223",
+    "data_value": 5.7729997634887695
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260224",
+    "data_value": 5.922999858856201
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260225",
+    "data_value": 5.979499816894531
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260226",
+    "data_value": 5.947000026702881
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260227",
+    "data_value": 6.004499912261963
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260302",
+    "data_value": 5.894499778747559
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260303",
+    "data_value": 5.773499965667725
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260304",
+    "data_value": 5.855000019073486
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260305",
+    "data_value": 5.752999782562256
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260306",
+    "data_value": 5.756999969482422
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260309",
+    "data_value": 5.80049991607666
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260310",
+    "data_value": 5.9039998054504395
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260311",
+    "data_value": 5.8454999923706055
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260312",
+    "data_value": 5.82450008392334
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260313",
+    "data_value": 5.7144999504089355
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260316",
+    "data_value": 5.790500164031982
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260317",
+    "data_value": 5.726500034332275
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260318",
+    "data_value": 5.553999900817871
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260319",
+    "data_value": 5.433000087738037
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260320",
+    "data_value": 5.34250020980835
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260323",
+    "data_value": 5.439499855041504
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260324",
+    "data_value": 5.422500133514404
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260325",
+    "data_value": 5.5289998054504395
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260326",
+    "data_value": 5.446499824523926
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260327",
+    "data_value": 5.4670000076293945
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260330",
+    "data_value": 5.47599983215332
+  },
+  {
+    "series_id": "HG_F",
+    "prd_de": "20260331",
+    "data_value": 5.6504998207092285
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260102",
+    "data_value": 26338.470703125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260105",
+    "data_value": 26347.240234375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260106",
+    "data_value": 26710.44921875
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260107",
+    "data_value": 26458.94921875
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260108",
+    "data_value": 26149.310546875
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260109",
+    "data_value": 26231.7890625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260112",
+    "data_value": 26608.48046875
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260113",
+    "data_value": 26848.470703125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260114",
+    "data_value": 26999.810546875
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260115",
+    "data_value": 26923.619140625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260116",
+    "data_value": 26844.9609375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260119",
+    "data_value": 26563.900390625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260120",
+    "data_value": 26487.509765625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260121",
+    "data_value": 26585.060546875
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260122",
+    "data_value": 26629.9609375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260123",
+    "data_value": 26749.509765625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260126",
+    "data_value": 26765.51953125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260127",
+    "data_value": 27126.94921875
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260128",
+    "data_value": 27826.91015625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260129",
+    "data_value": 27968.08984375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260130",
+    "data_value": 27387.109375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260202",
+    "data_value": 26775.5703125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260203",
+    "data_value": 26834.76953125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260204",
+    "data_value": 26847.3203125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260205",
+    "data_value": 26885.240234375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260206",
+    "data_value": 26559.94921875
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260209",
+    "data_value": 27027.16015625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260210",
+    "data_value": 27183.150390625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260211",
+    "data_value": 27266.380859375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260212",
+    "data_value": 27032.5390625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260213",
+    "data_value": 26567.119140625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260216",
+    "data_value": 26705.939453125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260220",
+    "data_value": 26413.349609375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260223",
+    "data_value": 27081.91015625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260224",
+    "data_value": 26590.3203125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260225",
+    "data_value": 26765.720703125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260226",
+    "data_value": 26381.01953125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260227",
+    "data_value": 26630.5390625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260302",
+    "data_value": 26059.849609375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260303",
+    "data_value": 25768.080078125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260304",
+    "data_value": 25249.48046875
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260305",
+    "data_value": 25321.33984375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260306",
+    "data_value": 25757.2890625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260309",
+    "data_value": 25408.4609375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260310",
+    "data_value": 25959.900390625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260311",
+    "data_value": 25898.759765625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260312",
+    "data_value": 25716.759765625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260313",
+    "data_value": 25465.599609375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260316",
+    "data_value": 25834.01953125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260317",
+    "data_value": 25868.5390625
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260318",
+    "data_value": 26025.419921875
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260319",
+    "data_value": 25500.580078125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260320",
+    "data_value": 25277.3203125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260323",
+    "data_value": 24382.470703125
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260324",
+    "data_value": 25063.7109375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260325",
+    "data_value": 25335.94921875
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260326",
+    "data_value": 24856.4296875
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260327",
+    "data_value": 24951.880859375
+  },
+  {
+    "series_id": "HSI",
+    "prd_de": "20260330",
+    "data_value": 24750.7890625
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260102",
+    "data_value": 23235.630859375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260105",
+    "data_value": 23395.8203125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260106",
+    "data_value": 23547.169921875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260107",
+    "data_value": 23584.279296875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260108",
+    "data_value": 23480.01953125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260109",
+    "data_value": 23671.349609375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260112",
+    "data_value": 23733.900390625
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260113",
+    "data_value": 23709.869140625
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260114",
+    "data_value": 23471.75
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260115",
+    "data_value": 23530.01953125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260116",
+    "data_value": 23515.390625
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260120",
+    "data_value": 22954.3203125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260121",
+    "data_value": 23224.8203125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260122",
+    "data_value": 23436.01953125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260123",
+    "data_value": 23501.240234375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260126",
+    "data_value": 23601.359375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260127",
+    "data_value": 23817.099609375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260128",
+    "data_value": 23857.44921875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260129",
+    "data_value": 23685.119140625
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260130",
+    "data_value": 23461.8203125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260202",
+    "data_value": 23592.109375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260203",
+    "data_value": 23255.189453125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260204",
+    "data_value": 22904.580078125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260205",
+    "data_value": 22540.58984375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260206",
+    "data_value": 23031.2109375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260209",
+    "data_value": 23238.669921875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260210",
+    "data_value": 23102.470703125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260211",
+    "data_value": 23066.470703125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260212",
+    "data_value": 22597.150390625
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260213",
+    "data_value": 22546.669921875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260217",
+    "data_value": 22578.380859375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260218",
+    "data_value": 22753.630859375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260219",
+    "data_value": 22682.73046875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260220",
+    "data_value": 22886.0703125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260223",
+    "data_value": 22627.26953125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260224",
+    "data_value": 22863.6796875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260225",
+    "data_value": 23152.080078125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260226",
+    "data_value": 22878.380859375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260227",
+    "data_value": 22668.2109375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260302",
+    "data_value": 22748.859375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260303",
+    "data_value": 22516.689453125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260304",
+    "data_value": 22807.48046875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260305",
+    "data_value": 22748.990234375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260306",
+    "data_value": 22387.6796875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260309",
+    "data_value": 22695.94921875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260310",
+    "data_value": 22697.099609375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260311",
+    "data_value": 22716.130859375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260312",
+    "data_value": 22311.98046875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260313",
+    "data_value": 22105.359375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260316",
+    "data_value": 22374.1796875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260317",
+    "data_value": 22479.529296875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260318",
+    "data_value": 22152.419921875
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260319",
+    "data_value": 22090.689453125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260320",
+    "data_value": 21647.609375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260323",
+    "data_value": 21946.759765625
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260324",
+    "data_value": 21761.890625
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260325",
+    "data_value": 21929.8203125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260326",
+    "data_value": 21408.080078125
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260327",
+    "data_value": 20948.359375
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260330",
+    "data_value": 20794.640625
+  },
+  {
+    "series_id": "IXIC",
+    "prd_de": "20260331",
+    "data_value": 21590.62890625
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260102",
+    "data_value": 945.5700073242188
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260105",
+    "data_value": 957.5
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260106",
+    "data_value": 955.969970703125
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260107",
+    "data_value": 947.3900146484375
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260108",
+    "data_value": 944.0599975585938
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260109",
+    "data_value": 947.9199829101562
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260112",
+    "data_value": 949.8099975585938
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260113",
+    "data_value": 948.97998046875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260114",
+    "data_value": 942.1799926757812
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260115",
+    "data_value": 951.1599731445312
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260116",
+    "data_value": 954.5900268554688
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260119",
+    "data_value": 968.3599853515625
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260120",
+    "data_value": 976.3699951171875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260121",
+    "data_value": 951.2899780273438
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260122",
+    "data_value": 970.3499755859375
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260123",
+    "data_value": 993.9299926757812
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260126",
+    "data_value": 1064.4100341796875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260127",
+    "data_value": 1082.5899658203125
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260128",
+    "data_value": 1133.52001953125
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260129",
+    "data_value": 1164.4100341796875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260130",
+    "data_value": 1149.43994140625
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260202",
+    "data_value": 1098.3599853515625
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260203",
+    "data_value": 1144.3299560546875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260204",
+    "data_value": 1149.4300537109375
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260205",
+    "data_value": 1108.4100341796875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260206",
+    "data_value": 1080.77001953125
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260209",
+    "data_value": 1127.550048828125
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260210",
+    "data_value": 1115.199951171875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260211",
+    "data_value": 1114.8699951171875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260212",
+    "data_value": 1125.989990234375
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260213",
+    "data_value": 1106.0799560546875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260219",
+    "data_value": 1160.7099609375
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260220",
+    "data_value": 1154
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260223",
+    "data_value": 1151.989990234375
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260224",
+    "data_value": 1165
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260225",
+    "data_value": 1165.25
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260226",
+    "data_value": 1188.1500244140625
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260227",
+    "data_value": 1192.780029296875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260303",
+    "data_value": 1137.699951171875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260304",
+    "data_value": 978.4400024414062
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260305",
+    "data_value": 1116.4100341796875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260306",
+    "data_value": 1154.6700439453125
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260309",
+    "data_value": 1102.280029296875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260310",
+    "data_value": 1137.6800537109375
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260311",
+    "data_value": 1136.8299560546875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260312",
+    "data_value": 1148.4000244140625
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260313",
+    "data_value": 1152.9599609375
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260316",
+    "data_value": 1138.2900390625
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260317",
+    "data_value": 1136.93994140625
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260318",
+    "data_value": 1164.3800048828125
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260319",
+    "data_value": 1143.47998046875
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260320",
+    "data_value": 1161.52001953125
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260323",
+    "data_value": 1096.8900146484375
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260324",
+    "data_value": 1121.43994140625
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260325",
+    "data_value": 1159.550048828125
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260326",
+    "data_value": 1136.6400146484375
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260327",
+    "data_value": 1141.510009765625
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260330",
+    "data_value": 1107.050048828125
+  },
+  {
+    "series_id": "KQ11",
+    "prd_de": "20260331",
+    "data_value": 1074.3299560546875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260102",
+    "data_value": 4309.6298828125
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260105",
+    "data_value": 4457.52001953125
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260106",
+    "data_value": 4525.47998046875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260107",
+    "data_value": 4551.06005859375
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260108",
+    "data_value": 4552.3701171875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260109",
+    "data_value": 4586.31982421875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260112",
+    "data_value": 4624.7900390625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260113",
+    "data_value": 4692.64013671875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260114",
+    "data_value": 4723.10009765625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260115",
+    "data_value": 4797.5498046875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260116",
+    "data_value": 4840.740234375
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260119",
+    "data_value": 4904.66015625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260120",
+    "data_value": 4885.75
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260121",
+    "data_value": 4909.93017578125
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260122",
+    "data_value": 4952.52978515625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260123",
+    "data_value": 4990.06982421875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260126",
+    "data_value": 4949.58984375
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260127",
+    "data_value": 5084.85009765625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260128",
+    "data_value": 5170.81005859375
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260129",
+    "data_value": 5221.25
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260130",
+    "data_value": 5224.35986328125
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260202",
+    "data_value": 4949.669921875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260203",
+    "data_value": 5288.080078125
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260204",
+    "data_value": 5371.10009765625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260205",
+    "data_value": 5163.56982421875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260206",
+    "data_value": 5089.14013671875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260209",
+    "data_value": 5298.0400390625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260210",
+    "data_value": 5301.68994140625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260211",
+    "data_value": 5354.490234375
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260212",
+    "data_value": 5522.27001953125
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260213",
+    "data_value": 5507.009765625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260219",
+    "data_value": 5677.25
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260220",
+    "data_value": 5808.52978515625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260223",
+    "data_value": 5846.08984375
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260224",
+    "data_value": 5969.64013671875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260225",
+    "data_value": 6083.85986328125
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260226",
+    "data_value": 6307.27001953125
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260227",
+    "data_value": 6244.1298828125
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260303",
+    "data_value": 5791.91015625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260304",
+    "data_value": 5093.5400390625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260305",
+    "data_value": 5583.89990234375
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260306",
+    "data_value": 5584.8701171875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260309",
+    "data_value": 5251.8701171875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260310",
+    "data_value": 5532.58984375
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260311",
+    "data_value": 5609.9501953125
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260312",
+    "data_value": 5583.25
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260313",
+    "data_value": 5487.240234375
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260316",
+    "data_value": 5549.85009765625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260317",
+    "data_value": 5640.47998046875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260318",
+    "data_value": 5925.02978515625
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260319",
+    "data_value": 5763.22021484375
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260320",
+    "data_value": 5781.2001953125
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260323",
+    "data_value": 5405.75
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260324",
+    "data_value": 5553.919921875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260325",
+    "data_value": 5642.2099609375
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260326",
+    "data_value": 5460.4599609375
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260327",
+    "data_value": 5438.8701171875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260330",
+    "data_value": 5277.2998046875
+  },
+  {
+    "series_id": "KS11",
+    "prd_de": "20260331",
+    "data_value": 5123.64013671875
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260105",
+    "data_value": 51832.80078125
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260106",
+    "data_value": 52518.078125
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260107",
+    "data_value": 51961.98046875
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260108",
+    "data_value": 51117.26171875
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260109",
+    "data_value": 51939.890625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260113",
+    "data_value": 53549.16015625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260114",
+    "data_value": 54341.23046875
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260115",
+    "data_value": 54110.5
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260116",
+    "data_value": 53936.171875
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260119",
+    "data_value": 53583.5703125
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260120",
+    "data_value": 52991.1015625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260121",
+    "data_value": 52774.640625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260122",
+    "data_value": 53688.890625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260123",
+    "data_value": 53846.87109375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260126",
+    "data_value": 52885.25
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260127",
+    "data_value": 53333.5390625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260128",
+    "data_value": 53358.7109375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260129",
+    "data_value": 53375.6015625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260130",
+    "data_value": 53322.8515625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260202",
+    "data_value": 52655.1796875
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260203",
+    "data_value": 54720.66015625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260204",
+    "data_value": 54293.359375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260205",
+    "data_value": 53818.0390625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260206",
+    "data_value": 54253.6796875
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260209",
+    "data_value": 56363.94140625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260210",
+    "data_value": 57650.5390625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260212",
+    "data_value": 57639.83984375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260213",
+    "data_value": 56941.96875
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260216",
+    "data_value": 56806.41015625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260217",
+    "data_value": 56566.48828125
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260218",
+    "data_value": 57143.83984375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260219",
+    "data_value": 57467.828125
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260220",
+    "data_value": 56825.69921875
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260224",
+    "data_value": 57321.08984375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260225",
+    "data_value": 58583.12109375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260226",
+    "data_value": 58753.390625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260227",
+    "data_value": 58850.26953125
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260302",
+    "data_value": 58057.23828125
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260303",
+    "data_value": 56279.05078125
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260304",
+    "data_value": 54245.5390625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260305",
+    "data_value": 55278.05859375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260306",
+    "data_value": 55620.83984375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260309",
+    "data_value": 52728.71875
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260310",
+    "data_value": 54248.390625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260311",
+    "data_value": 55025.37109375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260312",
+    "data_value": 54452.9609375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260313",
+    "data_value": 53819.609375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260316",
+    "data_value": 53751.1484375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260317",
+    "data_value": 53700.390625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260318",
+    "data_value": 55239.3984375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260319",
+    "data_value": 53372.53125
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260323",
+    "data_value": 51515.48828125
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260324",
+    "data_value": 52252.28125
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260325",
+    "data_value": 53749.62109375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260326",
+    "data_value": 53603.6484375
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260327",
+    "data_value": 53373.0703125
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260330",
+    "data_value": 51885.8515625
+  },
+  {
+    "series_id": "N225",
+    "prd_de": "20260331",
+    "data_value": 51205.94921875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260105",
+    "data_value": 5923.68994140625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260106",
+    "data_value": 5931.7900390625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260107",
+    "data_value": 5923.56982421875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260108",
+    "data_value": 5904.31982421875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260109",
+    "data_value": 5997.47021484375
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260112",
+    "data_value": 6016.2998046875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260113",
+    "data_value": 6029.830078125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260114",
+    "data_value": 6005.0498046875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260115",
+    "data_value": 6041.14013671875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260116",
+    "data_value": 6029.4501953125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260119",
+    "data_value": 5925.81982421875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260120",
+    "data_value": 5892.080078125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260121",
+    "data_value": 5882.8798828125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260122",
+    "data_value": 5956.169921875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260123",
+    "data_value": 5948.2001953125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260126",
+    "data_value": 5957.7998046875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260127",
+    "data_value": 5994.58984375
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260128",
+    "data_value": 5933.2001953125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260129",
+    "data_value": 5891.9501953125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260130",
+    "data_value": 5947.81005859375
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260202",
+    "data_value": 6007.509765625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260203",
+    "data_value": 5995.35009765625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260204",
+    "data_value": 5970.47021484375
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260205",
+    "data_value": 5925.7001953125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260206",
+    "data_value": 5998.39990234375
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260209",
+    "data_value": 6059.009765625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260210",
+    "data_value": 6047.06005859375
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260211",
+    "data_value": 6035.64013671875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260212",
+    "data_value": 6011.2900390625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260213",
+    "data_value": 5985.22998046875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260216",
+    "data_value": 5978.8798828125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260217",
+    "data_value": 6021.85009765625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260218",
+    "data_value": 6103.3701171875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260219",
+    "data_value": 6059.6201171875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260220",
+    "data_value": 6131.31005859375
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260223",
+    "data_value": 6113.919921875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260224",
+    "data_value": 6116.60009765625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260225",
+    "data_value": 6173.31982421875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260226",
+    "data_value": 6161.56005859375
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260227",
+    "data_value": 6138.41015625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260302",
+    "data_value": 5986.93017578125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260303",
+    "data_value": 5771.72998046875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260304",
+    "data_value": 5870.919921875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260305",
+    "data_value": 5782.89013671875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260306",
+    "data_value": 5719.89990234375
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260309",
+    "data_value": 5685.2001953125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260310",
+    "data_value": 5837.169921875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260311",
+    "data_value": 5794.68017578125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260312",
+    "data_value": 5748.89013671875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260313",
+    "data_value": 5716.60986328125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260316",
+    "data_value": 5739.009765625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260317",
+    "data_value": 5769.25
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260318",
+    "data_value": 5736.85009765625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260319",
+    "data_value": 5613.830078125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260320",
+    "data_value": 5501.27978515625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260323",
+    "data_value": 5574.31982421875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260324",
+    "data_value": 5581.2900390625
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260325",
+    "data_value": 5649.330078125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260326",
+    "data_value": 5565.93017578125
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260327",
+    "data_value": 5505.7998046875
+  },
+  {
+    "series_id": "STOXX50E",
+    "prd_de": "20260330",
+    "data_value": 5541.7900390625
+  }
+]
