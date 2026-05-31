@@ -8,6 +8,7 @@ project:
     - "macro/**/*.qmd"
   resources:
     - CNAME
+    - googled1e27414383ea45a.html
 
 website:
   title: "StatPan"
