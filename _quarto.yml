@@ -23,12 +23,14 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
       - href: leginote.qmd
         text: Leginote
       - href: macro/index.qmd
         text: Macro
-      - href: blog/index.qmd
-        text: Blog
+      - href: https://tech.statpan.com
+        text: News
     right:
       - icon: github
         href: https://github.com/StatPan
@@ -39,10 +41,10 @@ website:
       [Leginote](/leginote.html)
     center: |
       **Company**
-      [About](/about.html) · [Technology](/technology.html) · [Blog](/blog/index.html)
+      [About](/about.html) · [Technology](/technology.html) · [News](https://tech.statpan.com)
     right: |
       **Connect**
-      [hello@statpan.com](mailto:hello@statpan.com) · [GitHub](https://github.com/StatPan) · [tech.statpan.com](https://tech.statpan.com)
+      [hello@statpan.com](mailto:hello@statpan.com) · [GitHub](https://github.com/StatPan)
     border: true
     background: dark
     foreground: light

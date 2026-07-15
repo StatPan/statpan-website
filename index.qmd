@@ -1,15 +1,6 @@
 ---
 page-layout: full
 toc: false
-listing:
-  id: recent-insights
-  contents:
-    - "blog/posts/**/*.qmd"
-  sort: "date desc"
-  type: grid
-  max-items: 3
-  categories: false
-  date-format: "YYYY-MM-DD"
 ---
 
 ::: {.hero-wrapper}
@@ -133,12 +124,11 @@ listing:
 :::
 :::
 
-<h2 class="section-title reveal" style="margin-top: 5rem;">Recent Insights</h2>
-<p class="section-subtitle reveal">Latest updates and architectural thoughts.</p>
+<h2 class="section-title reveal" style="margin-top: 5rem;">News</h2>
+<p class="section-subtitle reveal">Engineering notes and architectural thinking, written up at tech.statpan.com.</p>
 
-::: {.bento-grid style="margin-bottom: 5rem;"}
-::: {#recent-insights}
-:::
+::: {.hero-cta style="margin-bottom: 5rem;"}
+<a href="https://tech.statpan.com" class="btn-outline">tech.statpan.com 방문하기 →</a>
 :::
 
 <script>
