@@ -23,6 +23,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: leginote.qmd
+        text: Leginote
       - href: macro/index.qmd
         text: Macro
       - href: blog/index.qmd

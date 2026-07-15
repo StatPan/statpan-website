@@ -1,0 +1,89 @@
+---
+title: "Leginote"
+toc: false
+---
+
+::: {.hero-wrapper style="min-height: 60vh;"}
+::: {.hero-content}
+<p class="hero-subtitle" style="font-size: 1.6rem; font-weight: 600; margin-bottom: 1rem;">
+연구자들은 연구 시간의 70~80%를 데이터 정제에 씁니다.
+</p>
+<p class="hero-subtitle">
+Leginote는 국회 법안·회의록·표결 데이터를 검색 가능한 형태로 정리해,
+그 시간을 실제 분석에 돌려줍니다.
+</p>
+
+::: {.hero-cta}
+<a href="mailto:hello@statpan.com?subject=Leginote%20%EC%96%BC%EB%A6%AC%20%EC%95%A1%EC%84%B8%EC%8A%A4%20%EB%AC%B8%EC%9D%98" class="btn-primary">얼리 액세스 문의</a>
+<a href="https://github.com/StatPan/AssemblyMCP" class="btn-outline">데이터 파이프라인 보기</a>
+:::
+:::
+:::
+
+<h2 class="section-title" style="margin-top: 4rem;">무엇을 하나요</h2>
+<p class="section-subtitle reveal">국회 공공 데이터를 정책 리서치에 바로 쓸 수 있는 형태로.</p>
+
+::: {.bento-grid}
+::: {.bento-card}
+<h3>법안 검색</h3>
+<p>발의부터 처리까지, 법안 텍스트와 진행 상태를 구조화된 형태로 검색합니다.</p>
+:::
+
+::: {.bento-card}
+<h3>회의록·표결 데이터</h3>
+<p>본회의·상임위 회의록과 표결 기록을 원문이 아닌 구조화된 데이터로 다룹니다.</p>
+:::
+
+::: {.bento-card}
+<h3>정책 리서치 정리</h3>
+<p>흩어진 입법 데이터를 정책 연구와 입법 분석에 바로 이어지는 형태로 정리합니다.</p>
+:::
+:::
+
+<h2 class="section-title" style="margin-top: 4rem;">지금 상태</h2>
+
+::: {.bento-grid style="grid-template-columns: 1fr;"}
+::: {.bento-card}
+<div style="display:flex; align-items:center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+<div>
+<h3>Leginote</h3>
+<p>MVP를 개발 중입니다. 연구자·정책전문가를 대상으로 얼리 액세스를 준비하고 있습니다.</p>
+</div>
+<span class="badge badge-core">MVP 개발 중</span>
+</div>
+:::
+:::
+
+<h2 class="section-title" style="margin-top: 4rem;">어떻게 만들어지나요</h2>
+<p class="section-subtitle reveal">국회 오픈 API 270개를 검증된 파이프라인으로 수집·정제합니다.</p>
+
+::: {.metrics-bar}
+::: {.metric-item}
+<span class="metric-value">270+</span>
+<span class="metric-label">국회 Open API 커버리지</span>
+:::
+::: {.metric-item}
+<span class="metric-value">280만+</span>
+<span class="metric-label">수집된 의안·표결·회의록 레코드</span>
+:::
+::: {.metric-item}
+<span class="metric-value">일일</span>
+<span class="metric-label">자동 수집 파이프라인</span>
+:::
+:::
+
+<p class="reveal" style="margin-top: 1.5rem;">
+자세한 기술 스택과 데이터 파이프라인은 <a href="technology.qmd">Technology 페이지</a>에서,
+엔지니어링 판단 기록은 <a href="https://tech.statpan.com">tech.statpan.com</a>에서 볼 수 있습니다.
+</p>
+
+<h2 class="section-title" style="margin-top: 4rem;">오픈소스로 공개한 기반</h2>
+<p class="reveal">
+Leginote를 지탱하는 핵심 인프라 일부는 오픈소스로 공개돼 있습니다.
+<a href="https://github.com/StatPan/AssemblyMCP">AssemblyMCP</a>(국회 API를 MCP 서버로 래핑)와
+<a href="https://github.com/StatPan/ragpan">ragpan</a>(하이브리드 RAG 엔진)을 GitHub에서 볼 수 있습니다.
+</p>
+
+::: {.hero-cta style="margin-top: 3rem;"}
+<a href="mailto:hello@statpan.com?subject=Leginote%20%EC%96%BC%EB%A6%AC%20%EC%95%A1%EC%84%B8%EC%8A%A4%20%EB%AC%B8%EC%9D%98" class="btn-primary">얼리 액세스 문의하기</a>
+:::

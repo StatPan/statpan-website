@@ -4,6 +4,4 @@ title: "Leginote"
 
 # Leginote
 
-Knowledge management platform for structured note-taking and research workflows.
-
-Documentation coming soon.
+Leginote 소개 및 얼리 액세스 문의는 [statpan.com/leginote.html](/leginote.html)에서 확인하세요.

@@ -128,6 +128,7 @@ listing:
 ::: {.bento-card}
 <h3>Leginote <span class="badge badge-core" style="margin-left:8px;">개발 중</span></h3>
 <p>입법 데이터 검색 & 분석 플랫폼. 위 파이프라인(assembly-api-client → Agent)을 기반으로 국회 법안, 회의록, 의결 데이터를 구조화하여 정책 연구와 입법 분석을 지원하는 B2B/B2C 서비스.</p>
+<a href="leginote.qmd" class="card-link">자세히 보기 →</a>
 :::
 :::
 :::
