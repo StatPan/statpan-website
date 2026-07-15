@@ -34,8 +34,18 @@ website:
         href: https://github.com/StatPan
         aria-label: GitHub
   page-footer:
+    left: |
+      **Product**
+      [Leginote](/leginote.html)
     center: |
-      &copy; 2026 StatPan. All rights reserved.
+      **Company**
+      [About](/about.html) · [Technology](/technology.html) · [Blog](/blog/index.html)
+    right: |
+      **Connect**
+      [hello@statpan.com](mailto:hello@statpan.com) · [GitHub](https://github.com/StatPan) · [tech.statpan.com](https://tech.statpan.com)
+    border: true
+    background: dark
+    foreground: light
 
 format:
   html:
