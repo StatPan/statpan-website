@@ -62,7 +62,7 @@ Apache Airflow 기반 일일 자동 수집 파이프라인
 | 기술 | 역할 |
 |------|------|
 | Python | 데이터 수집, 전처리, AI/ML 파이프라인, API 클라이언트 |
-| Go | RAG 엔진 (ragpan), CLI 도구, 에이전트 오케스트레이션 |
+| Go | CLI 도구(Gira, datapan-cli), 에이전트 오케스트레이션 |
 | TypeScript | 웹 애플리케이션, 프론트엔드 |
 
 ### 수집 & 오케스트레이션
@@ -100,7 +100,6 @@ Apache Airflow 기반 일일 자동 수집 파이프라인
 |------|------|
 | [OpenClaw](https://github.com/openclaw/openclaw) | 멀티채널 AI 어시스턴트 (WhatsApp, Telegram, Slack 등) |
 | Claude Code | CLI 기반 AI 코딩 에이전트 |
-| agentproc | 파일 기반 멀티레이어 에이전트 오케스트레이션 |
 
 ## 인프라
 
@@ -132,15 +131,28 @@ Claude, GPT 등 MCP를 지원하는 AI 에이전트가
 AI 에이전트 → MCP 클라이언트 → AssemblyMCP → 국회 Open API
 ```
 
-현재 버전: **v0.6.1** · [GitHub 보기](https://github.com/StatPan/AssemblyMCP)
+현재 버전: **v0.6.6** · [GitHub 보기](https://github.com/StatPan/AssemblyMCP)
 
-### ragpan
+### Gira
 
-Go로 작성된 하이브리드 RAG 엔진입니다.
-BM25 + Vector Search + RRF 퓨전으로
-PostgreSQL(pgvector) 및 Oracle ADB 23ai를 지원합니다.
+Issue-to-PR AI 소프트웨어 워크플로우를 위한 GitHub-native control
+plane입니다. Finish, review, workflow convergence 단계를 명시적으로
+다룹니다.
 
-[GitHub 보기](https://github.com/StatPan/ragpan)
+현재 버전: **v2.8.0** · 릴리스 다운로드 1,267회 · [GitHub 보기](https://github.com/StatPan/gira)
+
+### Datapan CLI / Registry / Health
+
+공공데이터포털(data.go.kr) API를 사람과 에이전트가 함께 다루기 쉽게
+만드는 기반층입니다. datapan-cli(커맨드라인 도구), datapan-registry(버전이
+붙은 API 스냅샷 레지스트리), datapan-health(공개 상태 모니터링)로
+구성됩니다.
+
+| 패키지 | 버전 | 다운로드 |
+|--------|------|------|
+| [datapan-cli](https://github.com/StatPan/datapan-cli) | v0.1.39 | 164회 |
+| [datapan-registry](https://github.com/StatPan/datapan-registry) | v2026.07.15 | 784회 |
+| [datapan-health](https://github.com/StatPan/datapan-health) | 출시 전 | - |
 
 ### Python API 클라이언트
 

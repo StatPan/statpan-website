@@ -20,7 +20,7 @@ quarto render
 - `about.qmd` — About StatPan
 - `technology.qmd` — Technology stack
 - `blog/` — Technical blog
-- `docs/` — Service documentation (Leginote, AssemblyMCP, ragpan)
+- `macro/` — Macro regime dashboard (OJS)
 
 ## Deployment
 

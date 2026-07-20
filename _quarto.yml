@@ -4,7 +4,6 @@ project:
   render:
     - "*.qmd"
     - "blog/**/*.qmd"
-    - "docs/**/*.qmd"
     - "macro/**/*.qmd"
   resources:
     - CNAME

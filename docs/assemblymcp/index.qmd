@@ -1,9 +1,0 @@
----
-title: "AssemblyMCP"
----
-
-# AssemblyMCP
-
-Model Context Protocol server for assembling and orchestrating AI agent pipelines.
-
-Documentation coming soon.
