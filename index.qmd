@@ -1,299 +1,129 @@
 ---
 page-layout: full
 toc: false
-listing:
-  id: recent-insights
-  contents:
-    - "blog/posts/**/*.qmd"
-  sort: "date desc"
-  type: grid
-  max-items: 3
-  categories: false
-  date-format: "YYYY-MM-DD"
 ---
 
-::: {.hero-wrapper}
-<canvas id="particle-canvas"></canvas>
+<section class="hero reveal">
+<span class="hero-eyebrow"><span class="pulse-dot"></span> StatPan · AI &amp; Data Infra, for Agents</span>
 
-::: {.hero-content}
-::: {.typing-container}
-<span class="typing-prefix">></span>
-<span id="typing-text"></span>
-<span class="typing-cursor">_</span>
-:::
+<h1 class="hero-title">공공 데이터를 에이전트가 바로 쓸 수 있는 인프라로 만듭니다</h1>
 
 <p class="hero-subtitle">
-공공 데이터를 수집·정제하고, AI 에이전트가 직접 활용할 수 있는<br>
-강력하고 유연한 인프라스트럭처를 만듭니다.
+국회·금융·거시경제 공공 API를 수집해 정제하고, MCP와 CLI로 에이전트가 바로 쓸 수 있게 서빙합니다.
 </p>
 
-::: {.hero-cta}
-<a href="#ecosystem" class="btn-primary">Explore Ecosystem</a>
-<a href="https://github.com/StatPan" class="btn-outline">GitHub</a>
-:::
-:::
-:::
+<div class="hero-cta">
+<a href="#selected-systems" class="btn-primary">Selected Systems 보기</a>
+<a href="https://statpan.com/blog" class="btn-outline">기술 블로그 읽기</a>
+</div>
+</section>
 
-::: {.metrics-bar}
-::: {.metric-item}
-<span class="metric-value">270+</span>
-<span class="metric-label">Public APIs Wrapped</span>
-:::
-::: {.metric-item}
-<span class="metric-value">100%</span>
-<span class="metric-label">Type-Safe (Pydantic/Go)</span>
-:::
-::: {.metric-item}
-<span class="metric-value">Async</span>
-<span class="metric-label">High-Performance IO</span>
-:::
-:::
+<div class="stat-strip reveal">
+<div class="stat-item"><span class="stat-value">270+</span><span class="stat-label">Public APIs Wrapped</span></div>
+<div class="stat-item"><span class="stat-value">1,600만+</span><span class="stat-label">Records Collected</span></div>
+<div class="stat-item"><span class="stat-value">30+</span><span class="stat-label">Daily Airflow DAGs</span></div>
+<div class="stat-item"><span class="stat-value">2,200+</span><span class="stat-label">Gira · Datapan Release Downloads</span></div>
+</div>
 
-<h2 class="section-title" id="ecosystem">The StatPan Pipeline</h2>
-<p class="section-subtitle reveal">A cohesive data lifecycle for modern AI agents.</p>
+<section id="selected-systems" class="landing-section reveal">
+<div class="section-head">
+<h2>Selected Systems</h2>
+</div>
 
-::: {.pipeline-stage}
-<span class="stage-label">1. Data Acquisition (Extract & Clean)</span>
-
-::: {.bento-grid}
-::: {.bento-card}
-<h3>assembly-api-client</h3>
-::: {.badge-group}
-<span class="badge badge-lang">Python</span>
-<span class="badge badge-core">Async</span>
-:::
-<p>국회 오픈 API 비동기 Python 클라이언트. 동적 스펙 파싱과 Pydantic을 통한 타입 안전성을 보장합니다.</p>
-<a href="https://github.com/StatPan/assembly-api-client" class="card-link">View Source →</a>
-:::
-
-::: {.bento-card}
-<h3>pub-api-client</h3>
-::: {.badge-group}
-<span class="badge badge-lang">Python</span>
-:::
-<p>공공데이터포털(data.go.kr) 커버리지 매핑 및 자동화 수집 시스템.</p>
-<a href="https://github.com/StatPan/pub-api-client" class="card-link">View Source →</a>
-:::
-
-::: {.bento-card}
-<h3>dart-api-client</h3>
-::: {.badge-group}
-<span class="badge badge-lang">Python</span>
-:::
-<p>금융감독원 DART 전자공시 API 비동기 클라이언트.</p>
-<a href="https://github.com/StatPan/dart-api-client" class="card-link">View Source →</a>
-:::
-
-::: {.bento-card}
-<h3>lawpy</h3>
-::: {.badge-group}
-<span class="badge badge-lang">Python</span>
-:::
-<p>법령 정보 API 클라이언트. 다국가 지원 및 구조화된 법률 데이터를 제공합니다.</p>
-<a href="https://github.com/StatPan/lawpy" class="card-link">View Source →</a>
-:::
-:::
-:::
-
-::: {.pipeline-stage}
-<span class="stage-label">2. Orchestration & Serving (Agent Layer)</span>
-
-::: {.bento-grid style="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));"}
-::: {.bento-card}
+<div class="systems-grid">
+<div class="system-card system-card--flagship">
 <h3>AssemblyMCP</h3>
-::: {.badge-group}
-<span class="badge badge-lang">Python</span>
-<span class="badge badge-core">MCP</span>
-:::
-<p>국회 공공 API를 Model Context Protocol(MCP) 서버로 래핑. AI 에이전트(Claude, Cursor 등)가 입법 데이터에 자연어로 직접 접근하고 쿼리할 수 있게 합니다.</p>
-<a href="https://github.com/StatPan/AssemblyMCP" class="card-link">View Source →</a>
-:::
+<p>국회 공공 API 270개를 Model Context Protocol(MCP) 서버로 래핑합니다. Claude, Cursor 같은 AI 에이전트가 입법 데이터에 자연어로 직접 접근하고 쿼리할 수 있게 합니다.</p>
+<div class="system-card-meta">
+<div class="tag-row"><span class="tech-tag">Python</span><span class="tech-tag">MCP</span><span class="tech-tag">Async</span><span class="tech-tag">Pydantic</span></div>
+<span class="system-status">v0.6.6</span>
+</div>
+</div>
 
-::: {.bento-card}
-<h3>agentproc</h3>
-::: {.badge-group}
-<span class="badge badge-lang">Go</span>
-<span class="badge badge-core">Concurrency</span>
-:::
-<p>파일 기반 멀티레이어 에이전트 오케스트레이션. process → subprocess → thread 실행 모델을 통해 복잡한 에이전트 워크플로우를 고속으로 처리합니다.</p>
-<a href="https://github.com/StatPan/agentproc" class="card-link">View Source →</a>
-:::
-:::
-:::
+<div class="system-card">
+<h3>Gira</h3>
+<p>Issue-to-PR AI 소프트웨어 워크플로우를 위한 GitHub-native control plane입니다. Finish, review, workflow convergence 단계를 명시적으로 다룹니다.</p>
+<div class="system-card-meta">
+<span class="system-status">v2.8.0 · 릴리스 다운로드 1,267회</span>
+</div>
+</div>
 
-::: {.pipeline-stage}
-<span class="stage-label">3. End-User Service (Insight)</span>
+<div class="system-card">
+<h3>Leginote</h3>
+<p>국회 의안·표결·회의록 데이터를 다루는 client-first 리서치 워크스페이스입니다. Go API와 React 웹 클라이언트로 구성되며, 법안 원문 검색은 국회 공식 검색 API를 그대로 사용합니다.</p>
+<div class="system-card-meta">
+<span class="system-status">MVP 개발 중</span>
+</div>
+</div>
+</div>
 
-::: {.bento-grid style="grid-template-columns: 1fr;"}
-::: {.bento-card}
-<h3>Leginote <span class="badge badge-core" style="margin-left:8px;">개발 중</span></h3>
-<p>입법 데이터 검색 & 분석 플랫폼. 위 파이프라인(assembly-api-client → Agent)을 기반으로 국회 법안, 회의록, 의결 데이터를 구조화하여 정책 연구와 입법 분석을 지원하는 B2B/B2C 서비스.</p>
-:::
-:::
-:::
+<a href="https://statpan.com/blog/projects" class="section-more">전체 프로젝트 보기 →</a>
+</section>
 
-<h2 class="section-title reveal" style="margin-top: 5rem;">Recent Insights</h2>
-<p class="section-subtitle reveal">Latest updates and architectural thoughts.</p>
+<section class="landing-section reveal">
+<div class="section-head">
+<h2>Engineering Notebook</h2>
+</div>
 
-::: {.bento-grid style="margin-bottom: 5rem;"}
-::: {#recent-insights}
-:::
-:::
+<div class="notebook-list">
+<a class="notebook-item" href="https://statpan.com/blog/blog/open-source-foundation-layer/">
+<span class="notebook-title">기반은 오픈소스로 열고, 제품은 나중에 올린다</span>
+<span class="notebook-date">2026-07-18</span>
+</a>
+<a class="notebook-item" href="https://statpan.com/blog/blog/closed-is-not-finished/">
+<span class="notebook-title">이슈를 닫는 것과 일을 끝내는 것은 다르다</span>
+<span class="notebook-date">2026-07-17</span>
+</a>
+<a class="notebook-item" href="https://statpan.com/blog/blog/pyjwt-rs-performance-optimization/">
+<span class="notebook-title">pyjwt-rs: JWT 처리를 Rust로 옮기면 정말 빨라지는가</span>
+<span class="notebook-date">2026-06-19</span>
+</a>
+</div>
+
+<a href="https://statpan.com/blog" class="section-more">전체 글 보기 →</a>
+</section>
+
+<section class="landing-section reveal">
+<div class="focus-grid">
+<div class="focus-item"><div class="focus-index">01</div><h4>공공 데이터 수집·정제 파이프라인</h4></div>
+<div class="focus-item"><div class="focus-index">02</div><h4>MCP 기반 에이전트 서빙 레이어</h4></div>
+<div class="focus-item"><div class="focus-index">03</div><h4>GitHub-native 개발자 워크플로우</h4></div>
+<div class="focus-item"><div class="focus-index">04</div><h4>오픈소스 공공데이터 인프라 기반층</h4></div>
+</div>
+</section>
+
+<section class="landing-section reveal">
+<div class="oss-columns">
+<div>
+<h3>Owned Projects</h3>
+<ul class="oss-list">
+<li><a href="https://github.com/StatPan/gira">Gira</a><span class="oss-version">v2.8.0 · 1,267 downloads</span></li>
+<li><a href="https://github.com/StatPan/AssemblyMCP">AssemblyMCP</a><span class="oss-version">v0.6.6</span></li>
+<li><a href="https://github.com/StatPan/datapan-cli">datapan-cli</a><span class="oss-version">v0.1.39 · 164 downloads</span></li>
+<li><a href="https://github.com/StatPan/datapan-registry">datapan-registry</a><span class="oss-version">v2026.07.15 · 784 downloads</span></li>
+<li><a href="https://github.com/StatPan/datapan-health">datapan-health</a><span class="oss-version">출시 전</span></li>
+<li><a href="https://github.com/StatPan/pub-api-client">Public data API clients</a><span class="oss-version">패키지 4개</span></li>
+</ul>
+</div>
+<div>
+<h3>External Contributions</h3>
+<p class="oss-contrib-note">직접 메인테이너가 아니라, 기여자로 참여한 외부 오픈소스 프로젝트입니다.</p>
+<p><a href="https://github.com/OpenHands/software-agent-sdk">OpenHands / software-agent-sdk</a></p>
+<ul class="oss-contrib-prs">
+<li><a href="https://github.com/OpenHands/software-agent-sdk/pull/3252">feat(sdk): allow custom FileStore injection</a></li>
+<li><a href="https://github.com/OpenHands/software-agent-sdk/pull/2936">fix(state): warn when falling back to InMemoryFileStore without persistence_dir</a></li>
+</ul>
+</div>
+</div>
+</section>
 
 <script>
-// Typing Effect Logic
-(function() {
-  const phrases = [
-    "AI & Data Infra, For Agents",
-    "Public Data to Structured Insight",
-    "Building the Agentic Data Layer",
-    "270 APIs, One MCP Server"
-  ];
-  let phraseIdx = 0, charIdx = 0, deleting = false;
-  const el = document.getElementById("typing-text");
-  if (!el) return;
-
-  function tick() {
-    const current = phrases[phraseIdx];
-    if (!deleting) {
-      el.textContent = current.substring(0, charIdx + 1);
-      charIdx++;
-      if (charIdx === current.length) {
-        setTimeout(() => { deleting = true; tick(); }, 2500);
-        return;
-      }
-      setTimeout(tick, 40 + Math.random() * 40);
-    } else {
-      el.textContent = current.substring(0, charIdx - 1);
-      charIdx--;
-      if (charIdx === 0) {
-        deleting = false;
-        phraseIdx = (phraseIdx + 1) % phrases.length;
-        setTimeout(tick, 500);
-        return;
-      }
-      setTimeout(tick, 20);
-    }
-  }
-  setTimeout(tick, 1000);
-})();
-
-// Canvas Particle Network Logic (Lightweight)
-(function initCanvas() {
-  const canvas = document.getElementById('particle-canvas');
-  if (!canvas) return;
-  const ctx = canvas.getContext('2d');
-  let particles = [];
-  let mouse = { x: null, y: null, radius: 150 };
-  canvas.parentElement.addEventListener('mousemove', function(e) {
-      const rect = canvas.getBoundingClientRect();
-      mouse.x = e.clientX - rect.left;
-      mouse.y = e.clientY - rect.top;
-  });
-  canvas.parentElement.addEventListener('mouseleave', function() {
-      mouse.x = null;
-      mouse.y = null;
-  });
-
-  // Space Configuration
-  const properties = {
-      particleColor: 'rgba(255, 255, 255, 0.8)', // Star white
-      particleRadius: 1.8,
-      particleCount: 90,
-      particleMaxVelocity: 0.1,
-      lineMaxDist: 130,
-      lineColor: '100, 116, 139' // Slate Gray for faint connections
-  };
-
-  function resize() {
-      if (!canvas.parentElement) return;
-      canvas.width = canvas.parentElement.offsetWidth;
-      canvas.height = canvas.parentElement.offsetHeight;
-  }
-  window.addEventListener('resize', resize);
-  resize();
-
-  class Particle {
-      constructor() {
-          this.x = Math.random() * canvas.width;
-          this.y = Math.random() * canvas.height;
-          this.velocityX = (Math.random() - 0.5) * properties.particleMaxVelocity * 2;
-          this.velocityY = (Math.random() - 0.5) * properties.particleMaxVelocity * 2;
-      }
-      update() {
-          if (this.x + this.velocityX > canvas.width || this.x + this.velocityX < 0) this.velocityX *= -1;
-          if (this.y + this.velocityY > canvas.height || this.y + this.velocityY < 0) this.velocityY *= -1;
-          this.x += this.velocityX;
-          this.y += this.velocityY;
-
-          // Mouse interaction
-          if (mouse.x != null && mouse.y != null) {
-              let dx = mouse.x - this.x;
-              let dy = mouse.y - this.y;
-              let distance = Math.sqrt(dx * dx + dy * dy);
-              if (distance < mouse.radius) {
-                  this.x += dx * 0.015;
-                  this.y += dy * 0.015;
-              }
-          }
-      }
-  }
-
-  function drawLines() {
-      for (let i = 0; i < particles.length; i++) {
-          for (let j = i + 1; j < particles.length; j++) {
-              const dx = particles[i].x - particles[j].x;
-              const dy = particles[i].y - particles[j].y;
-              const dist = Math.sqrt(dx * dx + dy * dy);
-              if (dist < properties.lineMaxDist) {
-                  ctx.lineWidth = 0.5;
-                  ctx.strokeStyle = `rgba(${properties.lineColor}, ${1 - dist / properties.lineMaxDist})`;
-                  ctx.beginPath();
-                  ctx.moveTo(particles[i].x, particles[i].y);
-                  ctx.lineTo(particles[j].x, particles[j].y);
-                  ctx.stroke();
-              }
-          }
-      }
-  }
-
-  function loop() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      particles.forEach(p => {
-          p.update();
-          ctx.fillStyle = properties.particleColor;
-          ctx.beginPath();
-          ctx.arc(p.x, p.y, properties.particleRadius, 0, Math.PI * 2);
-          ctx.fill();
-      });
-      drawLines();
-      requestAnimationFrame(loop);
-  }
-
-  for (let i = 0; i < properties.particleCount; i++) particles.push(new Particle());
-  loop();
-})();
-
-// Scroll Reveal Observer
 document.addEventListener("DOMContentLoaded", () => {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('active');
-      }
+      if (entry.isIntersecting) entry.target.classList.add('active');
     });
   }, { threshold: 0.1 });
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-});
-
-// Bento Card Spotlight Effect
-document.querySelectorAll('.bento-card').forEach(card => {
-  card.addEventListener('mousemove', e => {
-    const rect = card.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    card.style.setProperty('--mouse-x', `${x}px`);
-    card.style.setProperty('--mouse-y', `${y}px`);
-  });
 });
 </script>
