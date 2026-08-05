@@ -12,6 +12,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: pilot.qmd
+        text: Pilot
       - href: blog/index.qmd
         text: Blog
     right:

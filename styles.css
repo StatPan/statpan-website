@@ -180,6 +180,131 @@
   padding: 0.35rem 0.9rem;
 }
 
+/* ---- Readiness pilot ---- */
+.pilot-hero {
+  max-width: 860px;
+  margin: 2.5rem auto 3.5rem;
+  padding: 4.5rem 2.5rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(145deg, #eefbf6 0%, #f8fcfb 58%, #edf4ff 100%);
+  border: 1px solid #d6eee3;
+}
+
+.pilot-kicker {
+  margin: 0 0 0.8rem;
+  color: #21845f;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.pilot-hero h1 {
+  max-width: 720px;
+  margin: 0 0 1rem;
+  color: #18283c;
+  font-size: clamp(2.2rem, 6vw, 4.2rem);
+  line-height: 1.08;
+  letter-spacing: -0.055em;
+  word-break: keep-all;
+}
+
+.pilot-lede {
+  max-width: 630px;
+  margin-bottom: 1.8rem;
+  color: #3f4e5d;
+  font-size: 1.12rem;
+  line-height: 1.75;
+}
+
+.pilot-note {
+  max-width: 630px;
+  margin: 1.4rem 0 0;
+  padding-left: 1rem;
+  border-left: 3px solid #3eb489;
+  color: #43505b;
+  font-size: 0.94rem;
+}
+
+.pilot-section {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3.4rem 0;
+  border-top: 1px solid #e4e9e7;
+}
+
+.pilot-section h2 {
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+  font-size: clamp(1.7rem, 4vw, 2.5rem);
+  letter-spacing: -0.04em;
+}
+
+.pilot-section > p {
+  max-width: 680px;
+  color: #52525b;
+  line-height: 1.75;
+}
+
+.pilot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1.6rem;
+}
+
+.pilot-card {
+  min-height: 176px;
+  padding: 1.4rem;
+  border: 1px solid #e0e7e3;
+  border-radius: 0.65rem;
+  background: #ffffff;
+}
+
+.pilot-card strong {
+  display: block;
+  margin-bottom: 0.55rem;
+  color: #1a1a2e;
+  font-size: 1.03rem;
+}
+
+.pilot-card p {
+  margin: 0;
+  color: #5b6470;
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.pilot-boundary {
+  padding: 1.6rem;
+  border-radius: 0.65rem;
+  background: #f7faf8;
+  border: 1px solid #dce8e2;
+}
+
+.pilot-boundary ul {
+  margin: 0.8rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.pilot-boundary li + li {
+  margin-top: 0.5rem;
+}
+
+.pilot-cta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.pilot-cta p {
+  margin: 0;
+  color: #66717c;
+  font-size: 0.9rem;
+}
+
 /* ---- Responsive ---- */
 @media (max-width: 768px) {
   .hero h2 {
@@ -187,6 +312,15 @@
   }
 
   .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pilot-hero {
+    margin-top: 1rem;
+    padding: 3rem 1.35rem;
+  }
+
+  .pilot-grid {
     grid-template-columns: 1fr;
   }
 }

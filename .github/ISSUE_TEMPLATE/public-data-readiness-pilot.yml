@@ -1,0 +1,87 @@
+name: Public-data readiness pilot interest
+description: Closed-choice public interest form for the readiness-pilot experiment. This is not a support request or service order.
+title: "Public-data readiness pilot interest"
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 공개 의향 확인입니다
+
+        이 양식은 서비스 주문·결제·상담 신청이 아닙니다. 모든 내용은 공개됩니다.
+
+        제목을 바꾸거나, API 키·비공개 URL·요청/응답 원문·회사명·개인 연락처·기타 식별 정보를 쓰지 마세요. 아래 선택지만 제출해 주세요.
+
+  - type: dropdown
+    id: integration_stage
+    attributes:
+      label: 현재 단계
+      options:
+        - 데이터나 API를 찾는 중
+        - 활용 신청 또는 인증에서 막힘
+        - 개발 중이며 호출·응답에서 막힘
+        - 운영 중이며 신뢰성·갱신이 걱정됨
+        - 아직 구체적인 프로젝트는 없음
+    validations:
+      required: true
+
+  - type: dropdown
+    id: main_blocker
+    attributes:
+      label: 가장 먼저 확인하고 싶은 문제
+      options:
+        - 어떤 공공 API나 데이터가 맞는지
+        - 활용 신청·인증키·호출 조건
+        - 파라미터·응답 형식·오류 해석
+        - 갱신 주기·호출 한도·운영 위험
+        - 아직 잘 모르겠음
+    validations:
+      required: true
+
+  - type: dropdown
+    id: desired_output
+    attributes:
+      label: 있으면 가장 유용할 결과
+      options:
+        - 연동 가능 여부와 다음 확인 목록
+        - 후보 API·데이터 비교 메모
+        - 호출 전 점검 목록
+        - 운영 위험과 확인 방법
+        - 공개 CLI만 먼저 써보고 싶음
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pilot_interest
+    attributes:
+      label: 다음 단계에 대한 생각
+      options:
+        - 공개 도구·가이드만 먼저 보고 싶음
+        - 비공개가 아닌 공개 파일럿 의향 확인에는 참여 가능
+        - 아직은 관심 없음
+    validations:
+      required: true
+
+  - type: dropdown
+    id: price_reaction
+    attributes:
+      label: 비구속적 가격 반응
+      description: 결제·예약·계약이 아닙니다. 실제 조건이 생기기 전에는 아무 권리나 의무가 생기지 않습니다.
+      options:
+        - 무료 자료나 도구만 원함
+        - 5만 원 미만이면 검토 가능
+        - 5만 원에서 15만 원이면 검토 가능
+        - 15만 원에서 30만 원이면 검토 가능
+        - 30만 원 이상도 범위에 따라 검토 가능
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: public_boundary
+    attributes:
+      label: 공개·개인정보 경계 확인
+      options:
+        - label: 이 응답은 공개되며, 서비스 주문·결제·예약이 아니라는 점을 이해했습니다.
+          required: true
+        - label: 제목과 선택지 밖에 API 키, URL, 원문 데이터, 회사명, 연락처를 쓰지 않았습니다.
+          required: true
