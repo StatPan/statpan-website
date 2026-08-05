@@ -269,6 +269,19 @@ section.landing-section {
   align-items: center;
   gap: 0.75rem;
 }
+.system-link {
+  color: var(--primary);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.system-link:hover,
+.system-link:focus-visible {
+  color: var(--accent-neon);
+  text-decoration: underline;
+}
 .system-status {
   font-family: var(--font-mono);
   font-size: 0.7rem;

@@ -55,6 +55,15 @@ toc: false
 <span class="system-status">MVP 개발 중</span>
 </div>
 </div>
+
+<div class="system-card">
+<h3>Kakao Relay Beta</h3>
+<p>고객 소유 Android 기기에서 선택한 카카오톡 알림을 Telegram, Discord 또는 HTTPS webhook으로 전달하려는 무료 수요 검증입니다. 공식 카카오 API·봇, 원격 답장, 설치 파일을 약속하지 않습니다.</p>
+<div class="system-card-meta">
+<a class="system-link" href="https://statpan.github.io/kakao-relay-beta/" aria-label="Kakao Relay Beta 공개 수요 검증 보기">공개 수요 검증 보기 <span aria-hidden="true">→</span></a>
+<span class="system-status">수요 검증 단계</span>
+</div>
+</div>
 </div>
 
 <a href="https://statpan.com/blog/projects" class="section-more">전체 프로젝트 보기 →</a>
